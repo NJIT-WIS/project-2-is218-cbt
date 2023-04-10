@@ -34,6 +34,6 @@ The business value of this epic lies in its ability to improve the efficiency an
 1, as this should be completed before continuing website development
 
 #### List stories related to this theme
-- User Story 1: Create documentation and wiki
-- User Story 2: Create individual project activity report 
-- User Story 3: Implement basic error tracking using GitHub issues and Issue Templates
+- [User Story 1: Create documentation and wiki](https://github.com/NJIT-WIS/project-2-is218-cbt/blob/1-create-initial-documentation/documentation/stories/story_1_documentation_wiki.md)
+- [User Story 2: Create individual project activity report](https://github.com/NJIT-WIS/project-2-is218-cbt/blob/1-create-initial-documentation/documentation/stories/story_2_project_activity.md)
+- [User Story 3: Implement basic error tracking using GitHub issues and Issue Templates](https://github.com/NJIT-WIS/project-2-is218-cbt/blob/1-create-initial-documentation/documentation/stories/story_3_issues.md)
