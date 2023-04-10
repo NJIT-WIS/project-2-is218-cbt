@@ -1,4 +1,4 @@
-# Initiative 1
+# Initiative 1: Documentation
 
 #### Description:
 This initiative aims to create a comprehensive set of documentation and establish a team management system to ensure effective collaboration and communication among team members throughout the project's life cycle. The project documentation will include all relevant information related to the project, such as project plans, requirements, and user documentation. The team management system will provide a centralized platform for communication, task management, and tracking project progress.
@@ -51,3 +51,6 @@ This initiative aims to create a comprehensive set of documentation and establis
 - Callie Dieffenbach
 - Bryan Tello
 - Truong Dang
+
+## Epics related to this initiative: 
+- [Epic 1: Initial Documentation](https://github.com/NJIT-WIS/project-2-is218-cbt/blob/1-create-initial-documentation/documentation/epics/epic_1_initial_documentation.md)
