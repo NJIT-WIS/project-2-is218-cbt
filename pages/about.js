@@ -10,7 +10,7 @@ export default function About() {
   return (
     <div className={utilStyles.container}>
       <Head>
-        <title>MyWebClass.org | {t('About')}</title>
+        <title>MyWebClass.org | About</title>
       </Head>
 
       <header className={utilStyles.header}>
