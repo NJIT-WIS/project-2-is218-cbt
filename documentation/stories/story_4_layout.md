@@ -5,6 +5,9 @@
 - Homepage that is visually appealing, modern, and consistent with branding
 - Brand archetypes used and consistent across all webpages
 
+#### Story Points: 
+3
+
 #### Assigned to: 
 Callie Dieffenbach
 
