@@ -4,6 +4,9 @@
 - Create individual project activity task logs for each member
 - Monitor task logs throughout project to identify areas where support may be needed
 
+#### Story Points: 
+1 
+
 #### Assigned to: 
 Callie Dieffenbach
 
