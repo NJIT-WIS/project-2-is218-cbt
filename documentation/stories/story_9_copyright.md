@@ -7,8 +7,11 @@
 - The website owner should educate website contributors on copyright laws and best practices to avoid copyright infringement.
 - The website should have a clear policy regarding user-generated content and the use of copyrighted materials.
 
+#### Story Points: 
+1
+
 #### Assigned to: 
 Bryan Tello
 
 #### Deadline: 
-TBA
+4/23/2023
