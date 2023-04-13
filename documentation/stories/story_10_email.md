@@ -9,8 +9,11 @@
 - The website owner must research email laws such as CAN-SPAM Act and GDPR regulations and ensure compliance with applicable laws.
 - The emails sent to subscribers must contain relevant and valuable information and must not be spammy or misleading in any way.
 
+#### Story Points: 
+3
+
 #### Assigned to: 
-- Truong Dang
+Truong Dang
 
 #### Deadline: 
-- TBA
+4/23/2023
