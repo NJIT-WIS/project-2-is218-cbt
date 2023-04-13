@@ -12,8 +12,11 @@
 - The website should be tested using assistive technology such as screen readers to ensure accessibility compliance.
 - The website should comply with the Section 508 accessibility guidelines and WCAG 2.1 guidelines at the AA level.
 
+#### Story Points: 
+1
+
 #### Assigned to: 
 Callie Dieffenbach
 
 #### Deadline: 
-TBA
+4/23/2023
