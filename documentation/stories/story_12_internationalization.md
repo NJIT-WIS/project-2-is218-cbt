@@ -6,8 +6,11 @@
 - All website content must be translated accurately and appropriately.
 - The website must follow best practices for implementing i18n.
 
+#### Story Points: 
+3
+
 #### Assigned to: 
 Bryan Tello
 
 #### Deadline: 
-TBA
+4/30/2023
