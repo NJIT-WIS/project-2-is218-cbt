@@ -6,8 +6,11 @@
 - The reusable components must be properly documented and tested.
 - The reusable components must be used across at least 2 pages of the website.
 
+#### Story Points: 
+3
+
 #### Assigned to: 
 Bryan Tello
 
 #### Deadline: 
-TBA
+4/30/2023
