@@ -6,6 +6,9 @@
 - Create a project board 
 - Add each issue to project board
 
+#### Story Points: 
+2
+
 #### Team Member: 
 Callie Dieffenbach
 
