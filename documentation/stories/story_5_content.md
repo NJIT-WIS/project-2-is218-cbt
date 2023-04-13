@@ -5,6 +5,9 @@
 - Content is professional and free of typos or misleading information
 - Users are encouraged to learn more and become involved with the project
 
+#### Story Points: 
+2
+
 #### Assigned to: 
 Callie Dieffenbach
 
