@@ -6,8 +6,11 @@
 - The website must have a keyword-rich content strategy that follows best practices for SEO.
 - The website must be submitted to Google Search Console.
 
+#### Story Points: 
+3
+
 #### Assigned to: 
 Bryan Tello
 
 #### Deadline: 
-TBA
+4/30/2023
