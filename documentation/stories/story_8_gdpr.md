@@ -12,8 +12,11 @@
 - Regular audits and assessments must be performed to ensure compliance with GDPR regulations.
 - The website should be designed and developed in a way that respects user privacy and does not collect unnecessary personal data.
 
+#### Story Points: 
+3
+
 #### Assigned to: 
 Bryan Tello
 
 #### Deadline: 
-TBA
+4/23/2023
