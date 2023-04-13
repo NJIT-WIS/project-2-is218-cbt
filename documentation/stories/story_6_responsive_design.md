@@ -12,10 +12,13 @@
 - The website should provide a consistent user experience across all devices, with no content or features being inaccessible on any device
 - The website should be designed to allow for future updates and changes to the content and design while maintaining responsiveness
 
+#### Story Points: 
+2
+
 #### Assigned to: 
 Callie Dieffenbach
 
 #### Deadline: 
-TBA
+4/23/2023
 
 
