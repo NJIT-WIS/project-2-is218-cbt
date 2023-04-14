@@ -19,7 +19,11 @@ export default function Layout({ children, home }) {
             siteTitle
           )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.zeit.co%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}/>
         <meta name="og:title" content={siteTitle} />
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="keywords" content="CBT, Sales, Funnel, MyWebClass" />
+        <meta name="twitter:title" content={siteTitle} />
+        <meta name="twitter:description" content="This is an awesome website!" />
+        <meta name="twitter:image" content="https://www.google.com/url?sa=i&url=https%3A%2F%2Fhelp.twitter.com%2Fen%2Fusing-twitter%2Ftwitter-live&psig=AOvVaw2ZJA3yRZaGz7FXBojPYBpL&ust=1681502175314000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCJCU9fPRp_4CFQAAAAAdAAAAABAJ"/>
+        <meta name="twitter:card" content="summary_large_image"/>
       </Head>
       <Script
         src="https://connect.facebook.net/en_US/sdk.js"
@@ -60,6 +64,13 @@ export default function Layout({ children, home }) {
             </h2>
           </>
         )}
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/courses">Courses</a></li>
+          </ul>
+        </nav>
       </header>
       <main>{children}</main>
       {!home && (
