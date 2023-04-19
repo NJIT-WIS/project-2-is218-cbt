@@ -1,105 +1,101 @@
 import Head from 'next/head'
-import Layout from '../components/layout'
+import Layout, { siteTitle } from '../components/layout'
+import {Instructor, InstructorInfo} from '../components/instructor'
 import utilStyles from '../styles/utils.module.css'
 import { useTranslation } from 'next-i18next'
 import Link from 'next/link'
 import Navbar from '../components/navbar';
+import SubscribeForm from "../components/newsletter"
 
 export default function About() {
-  const { t } = useTranslation('common')
+    const { t } = useTranslation('common')
 
-  return (
-    <div className={utilStyles.container}>
-      <Head>
-        <title>MyWebClass.org | About</title>
-      </Head>
+    return (
+        <div className={utilStyles.container}>
+            <Head><title>MyWebClass.org | About</title></Head>
 
-      <header className={utilStyles.header}>
-      <Navbar />
-       {/*} <nav className={utilStyles.navbar}>
-          <ul className={utilStyles.navlist}>
-            <li className={utilStyles.navitem}>
-              <Link href="/" legacyBehavior>
-                <a className={utilStyles.navlink}>MyWebClass</a>
-              </Link>
-            </li>
-            <li className={utilStyles.navitem}>
-              <Link href="/" legacyBehavior>
-                <a className={utilStyles.navlink}>{t('Home')}</a>
-              </Link>
-            </li>
-            <li className={utilStyles.navitem}>
-              <Link href="/courses" legacyBehavior>
-                <a className={utilStyles.navlink}>{t('Courses')}</a>
-              </Link>
-            </li>
-            <li className={utilStyles.navitem}>
-              <Link href="/about" legacyBehavior>
-                <a className={utilStyles.navlink}>{t('About')}</a>
-              </Link>
-            </li>
-          </ul>
-        </nav>
+            <header className={utilStyles.header}>
+              <Navbar />
+               {/*} <nav className={utilStyles.navbar}>
+                  <ul className={utilStyles.navlist}>
+                    <li className={utilStyles.navitem}>
+                      <Link href="/" legacyBehavior>
+                        <a className={utilStyles.navlink}>MyWebClass</a>
+                      </Link>
+                    </li>
+                    <li className={utilStyles.navitem}>
+                      <Link href="/" legacyBehavior>
+                        <a className={utilStyles.navlink}>{t('Home')}</a>
+                      </Link>
+                    </li>
+                    <li className={utilStyles.navitem}>
+                      <Link href="/courses" legacyBehavior>
+                        <a className={utilStyles.navlink}>{t('Courses')}</a>
+                      </Link>
+                    </li>
+                    <li className={utilStyles.navitem}>
+                      <Link href="/about" legacyBehavior>
+                        <a className={utilStyles.navlink}>{t('About')}</a>
+                      </Link>
+                    </li>
+                  </ul>
+                </nav>
+            */}
+            </header>
+            <main className={utilStyles.main}>
+                <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+                    <h1 className={utilStyles.headingXl}>{t('About ')} {siteTitle}</h1>
+                    <section>
+                        <h3>{t('Welcome to ')} {siteTitle}!</h3>
+                        <p>{t('Type short description 1 here.')}</p>
+                        <p>{t('Type short description 2 here.')}</p>
+                    </section>
 
-    */}
-     </header>
-      <main className={utilStyles.main}>
-          <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-              <h1 className={utilStyles.headingXl}>{t('About MyWebClass.Org')}</h1>
-              <div className={utilStyles.imageContainer}>
-                <div className={utilStyles.image}>
-                    <img src="/images/comic.png" alt="Image 1" />
-                    <div className={utilStyles.buttonContainer}>
-                        <button className={`${utilStyles.button} slideToSection`} onClick={() => {document.getElementById("instructor1").scrollIntoView();}}>{t('Instructor 1')}</button>
+                    <h1 className={utilStyles.heading2Xl}>{t('Meet The Instructors')}</h1>
+                    <div className={utilStyles.imageContainer}>
+                        <Instructor name="Professor Name" id="professor" number="1"/>
+                        <Instructor name="Professor Name" id="professor" number="2"/>
+                        <Instructor name="Professor Name" id="professor" number="3"/>
                     </div>
-                </div>
-                <div className={utilStyles.image}>
-                    <img src="/images/comic.png" alt="Image 2" />
-                    <div className={utilStyles.buttonContainer}>
-                        <button className={utilStyles.button} onClick={() => {document.getElementById("instructor2").scrollIntoView({ behavior: 'smooth' });}}>{t('Instructor 2')}</button>
+                    <div className={utilStyles.imageContainer}>
+                        <Instructor name="Instructor Name" id="instructor" number="4"/>
+                        <Instructor name="Instructor Name" id="instructor" number="5"/>
+                        <Instructor name="Instructor Name" id="instructor" number="6"/>
                     </div>
-                </div>
-                <div className={utilStyles.image}>
-                    <img src="/images/comic.png" alt="Image 3" />
-                    <div className={utilStyles.buttonContainer}>
-                        <button className={utilStyles.button} onClick={() => {document.getElementById("instructor3").scrollIntoView({ behavior: 'smooth' });}}>{t('Instructor 3')}</button>
-                    </div>
-                </div>
-              </div>
 
-              <h1>{t('Meet The Instructors')}</h1>
-              <section>
-                <h2 id="instructor1">{t('Instructor 1')}</h2>
-                <p>Suspendisse potenti. Sed auctor nulla non orci finibus, non varius tellus suscipit. Aenean ut sapien dolor. Vestibulum eleifend risus id sapien feugiat, ut tincidunt est dictum. Nunc id metus at nunc lobortis semper. </p>
-                <p>Quisque auctor, dolor eu fringilla iaculis, risus massa venenatis nulla, in scelerisque ex purus vitae odio. Nam rutrum tincidunt lacus vel pharetra. Morbi maximus posuere tellus, in bibendum turpis viverra id. Integer pellentesque enim lectus, quis ultrices lorem vestibulum vel. Sed lobortis mauris id euismod pharetra. Donec eu quam in lorem sodales imperdiet at non nunc.</p>
-                <p>Nunc tristique, enim non laoreet sodales, risus magna pharetra sapien, at posuere lacus dolor eget ex. Donec eget orci sed nulla scelerisque egestas.</p>
-              </section>
-              <section>
-                <h2 id="instructor2">{t('Instructor 2')}</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo mauris eget ante bibendum vehicula. Suspendisse potenti. Sed auctor nulla non orci finibus, non varius tellus suscipit. Aenean ut sapien dolor. Proin rutrum libero quis magna blandit aliquet. Vestibulum eleifend risus id sapien feugiat, ut tincidunt est dictum. Nunc id metus at nunc lobortis semper. </p>
-              </section>
-              <section>
-                <h2 id="instructor3">{t('Instructor 3')}</h2>
-                <p>Donec commodo mauris eget ante bibendum vehicula. --- Proin rutrum libero quis magna blandit aliquet. Vestibulum eleifend risus id. Nunc id metus at nunc lobortis semper. </p>
-              </section>
-          </section>
-      </main>
-
-      <footer className={`${utilStyles.flex} ${utilStyles.justifyBetween} ${utilStyles.itemsCenter} ${utilStyles.py4} ${utilStyles.bgGray}`}>
-          <div className={`${utilStyles.flex} ${utilStyles.flexCol} ${utilStyles.w50} ${utilStyles.mr4}`}>
-            <h3 className={`${utilStyles.mb2}`}>{t('Subscribe to our Newsletter')}</h3>
-            <form>
-              <label htmlFor="email" className={`${utilStyles.mb2}`}>Email:</label>
-              <input type="email" id="email" name="email" className={`${utilStyles.wFull} ${utilStyles.p2} ${utilStyles.mb4} ${utilStyles.border} ${utilStyles.borderGray} ${utilStyles.rounded}`} required />
-              <button type="submit" className={utilStyles.button}>{t('Subscribe')}</button>
-            </form>
-          </div>
-          <div className={`${utilStyles.flex} ${utilStyles.itemsCenter}`}>
-            <a href="https://www.facebook.com/ducthuansidco" className={`${utilStyles.mr2} ${utilStyles.textGray}`}>Facebook</a>
-            <a href="https://twitter.com/elonmusk" className={`${utilStyles.mr2} ${utilStyles.textGray}`}>Twitter</a>
-            <a href="https://www.instagram.com/ai.desires/" className={`${utilStyles.textGray}`}>Instagram</a>
-          </div>
-        </footer>
-    </div>
-  )
+                    <InstructorInfo name="Name 1" id="professor" number="1"
+                        intro="I am a <Subject> Professor in the <Name of department> department at <University>."
+                        edu="<B.S./M.S./PhD> in <Major> from the <University>"
+                        exp={["Experience 1", "Experience 2", "Experience 3"]}
+                    />
+                    <InstructorInfo name="Name 2" id="professor" number="2"
+                        intro="I am a <Subject> Professor in the <Name of department> department at <University>."
+                        edu="<B.S./M.S./PhD> in <Major> from the <University>"
+                        exp={["Experience 1", "Experience 2", "Experience 3"]}
+                    />
+                    <InstructorInfo name="Name 1" id="professor" number="3"
+                        intro="I am a <Subject> Professor in the <Name of department> department at <University>."
+                        edu="<B.S./M.S./PhD> in <Major> from the <University>"
+                        exp={["Experience 1", "Experience 2", "Experience 3"]}
+                    />
+                    <InstructorInfo name="Name 4" id="instructor" number="4"
+                        intro="I am a <Major> <year> at <University>."
+                        edu="<B.S./M.S./PhD> in <Major> from the <University>"
+                        exp={["Experience 1", "Experience 2", "Experience 3"]}
+                    />
+                    <InstructorInfo name="Name 5" id="instructor" number="5"
+                        intro="I am a <Major> <year> at <University>."
+                        edu="<B.S./M.S./PhD> in <Major> from the <University>"
+                        exp={["Experience 1", "Experience 2", "Experience 3"]}
+                    />
+                    <InstructorInfo name="Name 6" id="instructor" number="6"
+                        intro="I am a <Major> <year> at <University>."
+                        edu="<B.S./M.S./PhD> in <Major> from the <University>"
+                        exp={["Experience 1", "Experience 2", "Experience 3"]}
+                    />
+                </section>
+            </main>
+            <SubscribeForm/>
+        </div>
+    )
 }
