@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout'
+import Layout, { siteTitle, name } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
@@ -7,32 +7,39 @@ import Date from '../components/date'
 import { useTranslation } from 'next-i18next'
 
 export default function Home({ allPostsData }) {
-  const { t } = useTranslation('common')
+    const { t } = useTranslation('common')
 
-  return (
-    <Layout home>
-      <Head>
-        <title>{siteTitle}</title>
-      </Head>
-      <section className={utilStyles.headingMd}>
-        <p>{siteTitle} {t(' is created by Callie Dieffenbach, Bryan Tello, and Truong Dang. Group CBT stands for our first names.')}</p>
-        <p>(This is a sample website - you’ll be building a site like this in{' '} <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)</p>
-      </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>{t('Blog')}</h2>
-        <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>{title}</Link> <br/>
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
-            </li>
-          ))}
-        </ul>
-      </section>
-    </Layout>
-  )
+    return (
+        <Layout home>
+            <Head> <title>{siteTitle}</title> </Head>
+            <section className={utilStyles.headingMd}>
+                <p>{siteTitle} {t(' is created by ')} {name} {t(' - Callie Dieffenbach, Bryan Tello, and Truong Dang. Our mission is to provide accessible and engaging educational resources to learners and academies around the world.')}</p>
+                <p>Join us by cloning the project on GitHub and watching the instruction video:</p>
+                <div className={utilStyles.buttonContainerIndex}>
+                    <Link href="https://github.com/NJIT-WIS/project-2-is218-cbt">
+                        <button className={utilStyles.buttonIndex}>Clone on GitHub</button>
+                    </Link>
+                    <Link href="/simulator">
+                        <button className={utilStyles.buttonIndex}>Instruction Video</button>
+                    </Link>
+                </div>
+            </section>
+
+            <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+                <h2 className={utilStyles.headingLg}>{t('Blog')}</h2>
+                <ul className={utilStyles.list}>{allPostsData.map(({ id, date, title }) => (
+                    <li className={utilStyles.listItem} key={id}>
+                        <Link href={`/posts/${id}`}>{title}</Link> <br/>
+                        <small className={utilStyles.lightText}>
+                            <Date dateString={date} />
+                        </small>
+                    </li>
+                ))}
+                </ul>
+            </section>
+            <footer><p>&copy; {siteTitle} 2023</p></footer>
+        </Layout>
+    )
 }
 
 export async function getStaticProps() {
