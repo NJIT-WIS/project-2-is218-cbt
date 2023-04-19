@@ -3,6 +3,7 @@ import Layout from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import { useTranslation } from 'next-i18next'
 import Link from 'next/link'
+import Navbar from '../components/navbar';
 
 export default function About() {
   const { t } = useTranslation('common')
@@ -14,7 +15,8 @@ export default function About() {
       </Head>
 
       <header className={utilStyles.header}>
-        <nav className={utilStyles.navbar}>
+      <Navbar />
+       {/*} <nav className={utilStyles.navbar}>
           <ul className={utilStyles.navlist}>
             <li className={utilStyles.navitem}>
               <Link href="/" legacyBehavior>
@@ -38,8 +40,9 @@ export default function About() {
             </li>
           </ul>
         </nav>
-      </header>
 
+    */}
+     </header>
       <main className={utilStyles.main}>
           <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
               <h1 className={utilStyles.headingXl}>{t('About MyWebClass.Org')}</h1>

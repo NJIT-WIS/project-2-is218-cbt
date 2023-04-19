@@ -64,13 +64,13 @@ export default function Layout({ children, home }) {
             </h2>
           </>
         )}
-        <nav>
+       {/*} <nav>
           <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/about">About</a></li>
             <li><a href="/courses">Courses</a></li>
           </ul>
-        </nav>
+        </nav> */}
       </header>
       <main>{children}</main>
       {!home && (

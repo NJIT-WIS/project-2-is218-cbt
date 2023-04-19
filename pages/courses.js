@@ -7,6 +7,7 @@ import React from 'react'
 import Link from 'next/link'
 import ReactGA from 'react-ga';
 import SubscribeForm from "../components/newsletter";
+import Navbar from '../components/navbar';
 
 export default function Courses() {
     return (
@@ -25,7 +26,8 @@ export default function Courses() {
         </Head>
 
         <header className={utilStyles.header}>
-            <nav className={utilStyles.navbar}>
+         <Navbar />
+           {/*} <nav className={utilStyles.navbar}>
                 <ul className={utilStyles.navlist}>
                     <li className={utilStyles.navitem}>
                         <Link href="/" legacyBehavior>
@@ -48,7 +50,7 @@ export default function Courses() {
                         </Link>
                     </li>
                 </ul>
-            </nav>
+            </nav> */}
         </header>
 
         <main className={utilStyles.main}>
