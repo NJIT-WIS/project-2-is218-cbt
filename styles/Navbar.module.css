@@ -1,0 +1,47 @@
+.Navbar container {
+   background-color: #3261A7;
+    max-width: 100%;
+
+   align-items: center;
+   display: inline-block;
+    margin-bottom: 2rem;
+    padding: 0.5em;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.Navbar nav {
+    margin: 0;
+
+}
+.Navbar ul li {
+
+  list-style: none;
+  display: inline-flex;
+  float: right;
+  padding-right: 1em;
+
+}
+
+.Navbar ul {
+    background-color: #3261A7;
+
+}
+
+.Navbar li:first-child {
+    float:left;
+
+   font-weight: bold;
+}
+
+.Navbar a {
+  padding: 9px;
+  text-decoration: none;
+   color: white;
+
+}
+
+.Navbar a:hover {
+  background-color: #ddd;
+
+}
+

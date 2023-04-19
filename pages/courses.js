@@ -8,6 +8,7 @@ import React from 'react'
 import Link from 'next/link'
 import ReactGA from 'react-ga'
 import SubscribeForm from "../components/newsletter"
+import Navbar from '../components/navbar'
 
 export default function Courses() {
     return (
@@ -25,22 +26,33 @@ export default function Courses() {
                 }}></script>
             </Head>
 
-            <header className={utilStyles.header}>
-                <nav className={utilStyles.navbar}>
-                    <ul className={utilStyles.navlist}>
-                        <li className={utilStyles.navitem}>
-                            <Link href="/" legacyBehavior>
-                                <a className={utilStyles.navlink}>MyWebClass</a>
-                            </Link>
-                        </li>
-                        <li className={utilStyles.navitem}>
-                            <Link href="/about" legacyBehavior>
-                                <a className={utilStyles.navlink}>About</a>
-                            </Link>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
+        <header className={utilStyles.header}>
+         <Navbar />
+           {/*} <nav className={utilStyles.navbar}>
+                <ul className={utilStyles.navlist}>
+                    <li className={utilStyles.navitem}>
+                        <Link href="/" legacyBehavior>
+                            <a className={utilStyles.navlink}>MyWebClass</a>
+                        </Link>
+                    </li>
+                    <li className={utilStyles.navitem}>
+                        <Link href="/" legacyBehavior>
+                            <a className={utilStyles.navlink}>Home</a>
+                        </Link>
+                    </li>
+                    <li className={utilStyles.navitem}>
+                        <Link href="/courses" legacyBehavior>
+                            <a className={utilStyles.navlink}>Courses</a>
+                        </Link>
+                    </li>
+                    <li className={utilStyles.navitem}>
+                        <Link href="/about" legacyBehavior>
+                            <a className={utilStyles.navlink}>About</a>
+                        </Link>
+                    </li>
+                </ul>
+            </nav> */}
+        </header>
 
             <main className={utilStyles.main}>
                 <h1 className={utilStyles.heading2XL}>Course Catalog</h1>

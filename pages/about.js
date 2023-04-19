@@ -4,6 +4,7 @@ import {Instructor, InstructorInfo} from '../components/instructor'
 import utilStyles from '../styles/utils.module.css'
 import { useTranslation } from 'next-i18next'
 import Link from 'next/link'
+import Navbar from '../components/navbar';
 import SubscribeForm from "../components/newsletter"
 
 export default function About() {
@@ -14,18 +15,33 @@ export default function About() {
             <Head><title>MyWebClass.org | About</title></Head>
 
             <header className={utilStyles.header}>
-                <nav className={utilStyles.navbar}>
-                    <ul className={utilStyles.navlist}>
-                        <li className={utilStyles.navitem}>
-                            <Link href="/" legacyBehavior><a className={utilStyles.navlink}>MyWebClass</a></Link>
-                        </li>
-                        <li className={utilStyles.navitem}>
-                            <Link href="/courses" legacyBehavior><a className={utilStyles.navlink}>{t('Courses')}</a></Link>
-                        </li>
-                    </ul>
+              <Navbar />
+               {/*} <nav className={utilStyles.navbar}>
+                  <ul className={utilStyles.navlist}>
+                    <li className={utilStyles.navitem}>
+                      <Link href="/" legacyBehavior>
+                        <a className={utilStyles.navlink}>MyWebClass</a>
+                      </Link>
+                    </li>
+                    <li className={utilStyles.navitem}>
+                      <Link href="/" legacyBehavior>
+                        <a className={utilStyles.navlink}>{t('Home')}</a>
+                      </Link>
+                    </li>
+                    <li className={utilStyles.navitem}>
+                      <Link href="/courses" legacyBehavior>
+                        <a className={utilStyles.navlink}>{t('Courses')}</a>
+                      </Link>
+                    </li>
+                    <li className={utilStyles.navitem}>
+                      <Link href="/about" legacyBehavior>
+                        <a className={utilStyles.navlink}>{t('About')}</a>
+                      </Link>
+                    </li>
+                  </ul>
                 </nav>
+            */}
             </header>
-
             <main className={utilStyles.main}>
                 <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
                     <h1 className={utilStyles.headingXl}>{t('About ')} {siteTitle}</h1>
