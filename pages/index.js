@@ -9,12 +9,17 @@ import HeroSection from '../components/heroSection';
 import Navbar from '../components/navbar';
 import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../components/footer';
+import React from 'react';
+import * as NavigationMenu from '@radix-ui/react-navigation-menu';
+import classNames from 'classnames';
+import { CaretDownIcon } from '@radix-ui/react-icons';
+import NavigationMenuDemo from '../components/navigation';
 
 export default function Home({ allPostsData }) {
   const { t } = useTranslation('common');
   return (
     <div>
-     <Navbar />
+    <NavigationMenuDemo />
      <HeroSection />
      <Layout>
             <section className={utilStyles.headingMd}>
