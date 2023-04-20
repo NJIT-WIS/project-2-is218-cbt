@@ -6,6 +6,11 @@ import { useTranslation } from 'next-i18next'
 import Link from 'next/link'
 import Navbar from '../components/navbar';
 import SubscribeForm from "../components/newsletter"
+import React from 'react';
+import * as NavigationMenu from '@radix-ui/react-navigation-menu';
+import classNames from 'classnames';
+import { CaretDownIcon } from '@radix-ui/react-icons';
+import NavigationMenuDemo from '../components/navigation';
 
 export default function About() {
     const { t } = useTranslation('common')
@@ -15,7 +20,7 @@ export default function About() {
             <Head><title>MyWebClass.org | About</title></Head>
 
             <header className={utilStyles.header}>
-              <Navbar />
+              <NavigationMenuDemo />
                {/*} <nav className={utilStyles.navbar}>
                   <ul className={utilStyles.navlist}>
                     <li className={utilStyles.navitem}>
@@ -44,10 +49,11 @@ export default function About() {
             </header>
             <main className={utilStyles.main}>
                 <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-                    <h1 className={utilStyles.headingXl}>{t('About ')} {siteTitle}</h1>
+                    <h1 className={utilStyles.h1}>{t('About ')} {siteTitle}</h1>
                     <section>
-                        <h3>{t('Welcome to ')} {siteTitle}!</h3>
+                        <h3 className={utilStyles.h3}>{t('Welcome to ')} {siteTitle}!</h3>
                         <p>{t('Type short description 1 here.')}</p>
+
                         <p>{t('Type short description 2 here.')}</p>
                     </section>
 

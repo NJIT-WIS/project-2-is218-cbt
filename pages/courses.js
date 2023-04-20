@@ -9,6 +9,11 @@ import Link from 'next/link'
 import ReactGA from 'react-ga'
 import SubscribeForm from "../components/newsletter"
 import Navbar from '../components/navbar'
+import * as NavigationMenu from '@radix-ui/react-navigation-menu';
+import classNames from 'classnames';
+import { CaretDownIcon } from '@radix-ui/react-icons';
+import NavigationMenuDemo from '../components/navigation';
+
 
 export default function Courses() {
     return (
@@ -27,35 +32,12 @@ export default function Courses() {
             </Head>
 
         <header className={utilStyles.header}>
-         <Navbar />
-           {/*} <nav className={utilStyles.navbar}>
-                <ul className={utilStyles.navlist}>
-                    <li className={utilStyles.navitem}>
-                        <Link href="/" legacyBehavior>
-                            <a className={utilStyles.navlink}>MyWebClass</a>
-                        </Link>
-                    </li>
-                    <li className={utilStyles.navitem}>
-                        <Link href="/" legacyBehavior>
-                            <a className={utilStyles.navlink}>Home</a>
-                        </Link>
-                    </li>
-                    <li className={utilStyles.navitem}>
-                        <Link href="/courses" legacyBehavior>
-                            <a className={utilStyles.navlink}>Courses</a>
-                        </Link>
-                    </li>
-                    <li className={utilStyles.navitem}>
-                        <Link href="/about" legacyBehavior>
-                            <a className={utilStyles.navlink}>About</a>
-                        </Link>
-                    </li>
-                </ul>
-            </nav> */}
+            <NavigationMenuDemo />
         </header>
-
+    <div className={utilStyles.wrapper}>
             <main className={utilStyles.main}>
-                <h1 className={utilStyles.heading2XL}>Course Catalog</h1>
+
+                <h1 className={utilStyles.h1}>Course Catalog</h1>
                 <div className={utilStyles.courseList}>
                     <CourseItem courseTitle = "Course Title 1" courseDescribe = "Course Description 1" courseLevel = "Course Level 1"
                         courseDuration = "Course Duration 1" coursePrerequisite = "Courses" number = "1" />
@@ -69,6 +51,8 @@ export default function Courses() {
                         courseDuration = "Course Duration 5" coursePrerequisite = "Courses" number = "5" />
                 </div>
             </main>
+            </div>
+
             <SubscribeForm/>
         </div>
     )
