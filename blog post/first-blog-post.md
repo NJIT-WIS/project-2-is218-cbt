@@ -1,10 +1,11 @@
 ---
-title: My First Blog Post
-author: John Doe
-date: 2023-04-19
+title: Agile
+author: Rachel Chen
+date: 2022-02-19
 tags:
   - Blogging
   - Markdown
+  - Agile
 ---
 
 # Agile Practices and Their Usefulness
