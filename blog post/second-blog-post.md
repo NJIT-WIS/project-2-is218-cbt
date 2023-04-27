@@ -14,7 +14,7 @@ tags:
 
 As artificial intelligence (AI) continues to advance, its impact on various aspects of our lives becomes more profound. From healthcare and education to finance and climate change, AI is shaping our future in ways we have never imagined. In this article, we explore the potential directions AI might take and the resulting effects on our society, economy, and environment.
 
-![img1]([https://futurism.com/wp-content/uploads/2017/07/ai_humanoid.jpg](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.simplilearn.com%2Ffuture-of-artificial-intelligence-article&psig=AOvVaw3Ft08cJlhQWw5agMDwdpST&ust=1682704312071000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKC_sZjQyv4CFQAAAAAdAAAAABAE))
+![img1](https://www.simplilearn.com/ice9/free_resources_article_thumb/Future_Of_Artificial_Intelligence.jpg)
 
 ## Personalized Healthcare and Precision Medicine
 
@@ -24,7 +24,7 @@ AI's role in healthcare is rapidly expanding. Machine learning algorithms can no
 
 AI has the potential to transform education by providing personalized learning experiences, adaptive teaching methods, and instant feedback to students. Virtual tutors and intelligent learning platforms can help learners of all ages acquire new skills and knowledge at their own pace, ensuring no one is left behind. Moreover, AI can help bridge the gap between formal education and professional development, enabling individuals to stay competitive in a rapidly changing job market.
 
-![img2](https://www.roboticgizmos.com/wp-content/uploads/2019/05/28/robot_teacher.jpg)
+![img2](https://imageio.forbes.com/specials-images/imageserve/603c0d52695f2a07f37ff642/A-man-look-thoughtfully-to-the-side--interspersed-with-graphics-representing/960x0.jpg?format=jpg&width=960)
 
 ## Sustainable Agriculture and Climate Change Mitigation
 
@@ -34,7 +34,7 @@ AI-powered systems can optimize agricultural practices to boost crop yields, red
 
 The cities of the future will rely on AI to enhance the quality of life for their inhabitants. AI-driven traffic management systems can reduce congestion and improve public transportation, while intelligent buildings can optimize energy consumption and reduce waste. AI can also play a role in urban planning, helping city officials make data-driven decisions to create more sustainable and resilient communities.
 
-![img3](https://www.inteliment.com/wp-content/uploads/2019/05/artificial-intelligence-smart-city.jpg)
+![img3](https://bernardmarr.com/wp-content/uploads/2021/12/Future-Developments-of-AI.jpg)
 
 ## Ethical Considerations and Responsible AI Development
 
