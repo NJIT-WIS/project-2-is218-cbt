@@ -1,11 +1,10 @@
 
 .NavigationMenuRoot {
-  position: relative;
-  display: inline-block;
-  justify-content: left;
-  max-width: 100%;
-  z-index: 1;
-
+    position: relative;
+    display: inline-block;
+    justify-content: left;
+    max-width: 100%;
+    z-index: 1;
 }
 
 .Brand {
@@ -26,42 +25,39 @@
   width: 100vw;
 }
 
-.NavigationMenuTrigger,
-.NavigationMenuLink {
-  padding: 8px 12px;
-  outline: none;
-  user-select: none;
-  font-weight: 500;
-  line-height: 1;
-  border-radius: 4px;
-  font-size: 15px;
-  color: purple;
+.NavigationMenuTrigger, .NavigationMenuLink {
+    padding: 8px 12px;
+    outline: none;
+    user-select: none;
+    font-weight: 500;
+    line-height: 1;
+    border-radius: 4px;
+    font-size: 15px;
+    color: purple;
 }
-.NavigationMenuTrigger:focus,
-.NavigationMenuLink:focus {
-  box-shadow: 0 0 0 2px purple);
+.NavigationMenuTrigger:focus, .NavigationMenuLink:focus {
+    box-shadow: 0 0 0 2px purple;
 }
-.NavigationMenuTrigger:hover,
-.NavigationMenuLink:hover {
-  background-color: purple;
+.NavigationMenuTrigger:hover, .NavigationMenuLink:hover {
+    background-color: purple;
 }
 
 .NavigationMenuTrigger {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2px;
 }
 
 .NavigationMenuLink {
-  display: block;
-  text-decoration: none;
-  font-size: 15px;
-  line-height: 1;
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 1;
 }
 
 .NavigationMenuContent {
-  position: absolute;
+    position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -69,7 +65,7 @@
   animation-timing-function: ease;
 }
 .NavigationMenuContent[data-motion='from-start'] {
-  animation-name: enterFromLeft;
+    animation-name: enterFromLeft;
 }
 .NavigationMenuContent[data-motion='from-end'] {
   animation-name: enterFromRight;
