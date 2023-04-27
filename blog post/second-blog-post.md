@@ -14,7 +14,7 @@ tags:
 
 As artificial intelligence (AI) continues to advance, its impact on various aspects of our lives becomes more profound. From healthcare and education to finance and climate change, AI is shaping our future in ways we have never imagined. In this article, we explore the potential directions AI might take and the resulting effects on our society, economy, and environment.
 
-![img1](https://futurism.com/wp-content/uploads/2017/07/ai_humanoid.jpg)
+![img1]([https://futurism.com/wp-content/uploads/2017/07/ai_humanoid.jpg](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.simplilearn.com%2Ffuture-of-artificial-intelligence-article&psig=AOvVaw3Ft08cJlhQWw5agMDwdpST&ust=1682704312071000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKC_sZjQyv4CFQAAAAAdAAAAABAE))
 
 ## Personalized Healthcare and Precision Medicine
 
