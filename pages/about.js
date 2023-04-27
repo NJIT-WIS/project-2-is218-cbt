@@ -18,10 +18,9 @@ export default function About() {
     return (
         <div className={utilStyles.container}>
             <Head><title>MyWebClass.org | About</title></Head>
-
             <header className={utilStyles.header}>
-              <NavigationMenuDemo />
-               {/*} <nav className={utilStyles.navbar}>
+                <NavigationMenuDemo />
+                {/*} <nav className={utilStyles.navbar}>
                   <ul className={utilStyles.navlist}>
                     <li className={utilStyles.navitem}>
                       <Link href="/" legacyBehavior>
@@ -45,7 +44,7 @@ export default function About() {
                     </li>
                   </ul>
                 </nav>
-            */}
+                */}
             </header>
             <main className={utilStyles.main}>
                 <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
