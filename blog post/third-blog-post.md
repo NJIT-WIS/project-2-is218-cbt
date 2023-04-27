@@ -14,7 +14,7 @@ tags:
 
 Artificial intelligence (AI) is transforming a wide range of industries, driving innovation, and enhancing our daily lives. In this article, we explore various AI applications that are revolutionizing the way we live, work, and interact with the world.
 
-![img1](https://www.aitimejournal.com/wp-content/uploads/2020/10/artificial-intelligence-applications.jpg)
+![img1](https://www.appletechsoft.com/wp-content/uploads/2021/02/How-AI-is-transforming-the-Entertainment-Industry.jpg)
 
 ## Healthcare
 
@@ -24,7 +24,7 @@ AI is revolutionizing healthcare by improving diagnostics, drug discovery, and p
 
 AI is transforming the finance industry by enhancing fraud detection, risk management, and trading strategies. Machine learning algorithms can analyze large datasets to identify suspicious activities, optimize investment portfolios, and provide personalized financial advice.
 
-![img2](https://www.bbva.com/wp-content/uploads/2019/04/bbva-ai-finance-1920x1180.jpg)
+![img2](https://www.analyticsinsight.net/wp-content/uploads/2023/01/10-Best-Artificial-Intelligence-Apps-You-Should-Know-in-2023.jpg)
 
 ## Manufacturing and Supply Chain Management
 
@@ -34,7 +34,7 @@ AI applications in manufacturing and supply chain management can optimize produc
 
 AI is revolutionizing retail and e-commerce by providing personalized shopping experiences, optimizing pricing strategies, and improving inventory management. AI-powered chatbots, recommendation engines, and visual search tools can enhance customer engagement and increase sales.
 
-![img3](https://www.analyticsinsight.net/wp-content/uploads/2020/07/ai-in-retail.jpg)
+![img3](https://edgy.app/wp-content/uploads/2020/10/Image-showing-the-backside-of-a-woman-while-970x646.jpg)
 
 ## Transportation and Autonomous Vehicles
 
@@ -44,7 +44,7 @@ AI is driving the development of autonomous vehicles and transforming transporta
 
 AI is enabling the creation of smart homes and connected devices that can learn from user behavior and adapt to their needs. AI-powered systems can control lighting, temperature, and security, making our homes more energy-efficient, comfortable, and safe.
 
-![img4](https://www.techfunnel.com/wp-content/uploads/2018/06/Smart-Home-Automation-Using-AI.jpg)
+![img4](https://community.nasscom.in/sites/default/files/styles/960_x_600/public/media/images/AI%20Applications%20-%20The%20Future%20That%20Never%20Even%20Thought%20Of.jpg?itok=5HEzs3XN)
 
 ## Entertainment and Media
 
@@ -54,7 +54,7 @@ AI is changing the entertainment and media industry by creating personalized con
 
 AI-powered natural language processing (NLP) technologies are enhancing communication, translation, and accessibility. AI-driven tools like chatbots, virtual assistants, and real-time translation apps can help us interact with each other and access information more efficiently.
 
-![img5](https://www.sciencedaily.com/images/2020/02/200228132228_1_540x360.jpg)
+![img5](https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2023/01/31005446/Generative-AI-Applications.png)
 
 ## The Future of AI Applications
 
