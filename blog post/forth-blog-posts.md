@@ -14,7 +14,7 @@ tags:
 
 Web development is a rapidly evolving field, with new technologies and trends shaping the way we create and interact with digital experiences. In this article, we explore the future of web development, focusing on emerging trends and the career prospects for web developers in the years to come.
 
-![img1](https://www.freecodecamp.org/news/content/images/2019/11/web_development_cover.jpg)
+![img1](https://qph.cf2.quoracdn.net/main-qimg-577b36e5e242d83098f8ec2538d8c118)
 
 ## Web Development Trends
 
@@ -26,7 +26,7 @@ PWAs combine the best of web and mobile applications, offering a fast, reliable,
 
 WebAssembly is a new binary instruction format that allows developers to run high-performance applications directly in the browser. By providing a faster and more efficient way to execute code, WebAssembly has the potential to revolutionize the way web applications are built and delivered.
 
-![img2](https://www.sitepen.com/blog/wp-content/uploads/2017/03/webassembly.png)
+![img2](https://www.webfx.com/wp-content/uploads/2021/10/iStock-872670540.jpg)
 
 ### JAMstack
 
@@ -40,7 +40,7 @@ Serverless architecture allows developers to build and run applications without 
 
 As web development continues to evolve, the demand for skilled web developers is expected to remain strong. Businesses across all industries will continue to rely on web developers to create engaging, responsive, and user-friendly digital experiences.
 
-![img3](https://www.babbage.co.nz/wp-content/uploads/2018/11/Web-Developer-Career-Path.jpg)
+![img3](https://eternitymarketing.com/assets/image-cache/blog/bigstock-Business-woman-touching-future-91542530.94fa6d3a.jpg)
 
 ### Full-Stack Development
 
@@ -58,7 +58,7 @@ The rise of remote work and the gig economy has created new opportunities for we
 
 To succeed in the evolving landscape of web development, aspiring web developers should focus on honing their technical skills while also staying up-to-date with the latest industry trends and best practices.
 
-![img4](https://www.freecodecamp.org/news/content/images/2019/11/web_development_learning.jpg)
+![img4](https://blackdoorcreative.com/wp-content/uploads/2021/11/future_of_web_design.jpeg)
 
 - Learn multiple programming languages and frameworks, such as JavaScript, Python, and React.
 - Gain experience with emerging technologies, such as PWAs, WebAssembly, and JAMstack.
