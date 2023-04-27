@@ -14,13 +14,13 @@ tags:
 
 Web development plays a crucial role in the digital landscape, shaping the way businesses and users interact with each other online. In this article, we explore the various applications of web development across industries, demonstrating how it continues to transform the way we communicate, collaborate, and engage with the world around us.
 
-![img1](https://www.thinkful.com/blog/content/images/2020/01/webdevelopment-1.jpg)
+![img1](https://www.infomazeelite.com/wp-content/uploads/2022/06/Build-Custom-Web-Apps.png)
 
 ## E-commerce
 
 Web development has revolutionized the retail industry by enabling the creation of user-friendly, secure, and responsive e-commerce platforms. Online shopping experiences, payment gateways, and inventory management systems all rely on web development to provide seamless and efficient transactions for businesses and consumers alike.
 
-![img2](https://www.clariontech.com/hs-fs/hubfs/images/What-Are-The-Benefits-Of-E-Commerce-Web-Development.jpg)
+![img2](https://miro.medium.com/v2/resize:fit:512/1*GaBtlHe240ZkwlcBrFczgQ.jpeg)
 
 ## Content Management Systems (CMS)
 
@@ -30,8 +30,6 @@ Web development has made it easier for businesses and individuals to create, man
 
 Social networking platforms such as Facebook, Twitter, and LinkedIn rely on web development to create interactive, real-time experiences that allow users to connect, share content, and engage with one another. Web developers play a critical role in shaping the way we communicate and interact online.
 
-![img3](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYs0A2JmFwvxo8G_B1hTfJPEkoDM0xntpyFg&usqp=CAU)
-
 ## Online Education
 
 The education sector has been transformed by web development through the creation of online learning platforms, virtual classrooms, and educational resources. Web developers help build the infrastructure that makes distance learning, digital libraries, and interactive learning experiences possible.
@@ -39,8 +37,6 @@ The education sector has been transformed by web development through the creatio
 ## Digital Marketing
 
 Web development plays a key role in digital marketing, enabling businesses to create engaging and responsive websites, landing pages, and email campaigns. Web developers also implement tracking and analytics tools that help businesses measure the success of their marketing efforts and optimize their strategies.
-
-![img4](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5S5RPhO5O5v5Q5fW4c4qOXTIaDo1Oa8TTiA&usqp=CAU)
 
 ## Enterprise Resource Planning (ERP) Systems
 
