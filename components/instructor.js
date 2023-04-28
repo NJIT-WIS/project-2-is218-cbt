@@ -1,8 +1,7 @@
-import utilStyles from '../styles/utils.module.css'
-import React from 'react'
-import ReactDOM from 'react-dom'
-
-import { useTranslation } from 'next-i18next'
+import utilStyles from '../styles/utils.module.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { useTranslation } from 'next-i18next';
 
 export function Instructor({name, id, number}) {
     const imageName = `/images/${id}${number % 2}.png`
@@ -23,7 +22,7 @@ export function Instructor({name, id, number}) {
 export function InstructorInfo({name, id, intro, edu, exp, number}) {
     let nameID = ""
     if (id === "professor") nameID = "Professor"
-    else nameID = "Instructor"
+    else nameID = "Teacher Assistant"
 
     const realID = id + number
     console.log({realID})
@@ -32,7 +31,7 @@ export function InstructorInfo({name, id, intro, edu, exp, number}) {
 
     return (
         <section>
-            <h2 className={utilStyles.headingLg} id={realID}>{t(nameID)}: {name}</h2>
+            <h2 className={utilStyles.headingLg} id={realID}>{t(nameID)}. {name}</h2>
             <p>{intro}</p>
             <p><strong>Education:</strong> {edu}</p>
             <p><strong>Professional Background:</strong></p>
