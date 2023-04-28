@@ -31,14 +31,14 @@ img {
 @import '@radix-ui/colors/violet.css';
 
 /* reset */
-button, p {
+button {
     all: unset;
 }
 
 .Brand {
     margin-right: auto;
     margin-left: 1em;
-   font-weight: bold;
+    font-weight: bold;
     font-size: 1.1rem;
     padding-right: 0px;
 }
@@ -53,9 +53,10 @@ text-decoration: none;
 }
 
 .Login {
-
-  margin-left: auto;
-  padding-right: 5.5em;
+    margin-left: auto;
+    margin-right: 5%;
+    background-color: #06ccff;
+    border-radius: 6px;
 }
 
 .NavigationMenuRoot {
@@ -186,39 +187,43 @@ text-decoration: none;
 }
 
 .List {
-  display: grid;
-  padding: 22px;
-  margin: 0;
-  column-gap: 10px;
-  list-style: none;
+    display: grid;
+    padding: 22px;
+    margin: 0;
+    column-gap: 10px;
+    list-style: none;
 }
 @media only screen and (min-width: 600px) {
-  .List.one {
-    width: 500px;
-    grid-template-columns: 0.75fr 1fr;
-  }
-  .List.two {
-    width: 600px;
-    grid-auto-flow: column;
-    grid-template-rows: repeat(3, 1fr);
-  }
-
+    .List.one {
+        width: 500px;
+        grid-template-columns: 0.75fr 1fr;
+    }
+    .List.two {
+        width: 600px;
+        grid-auto-flow: column;
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .List.three {
+        width: 150px;
+        grid-auto-flow: column;
+        grid-template-rows: repeat(3, 1fr);
+    }
 }
 @media only screen and (max-width: 600px) {
-  .Brand {
-    font-size: 1rem;
-    margin-left: 0;
-  }
+    .Brand {
+        font-size: 1rem;
+        margin-left: 0;
+    }
 }
 .ListItemLink {
-  display: block;
-  outline: none;
-  text-decoration: none;
-  user-select: none;
-  padding: 12px;
-  border-radius: 6px;
-  font-size: 15px;
-  line-height: 1;
+    display: block;
+    outline: none;
+    text-decoration: none;
+    user-select: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 15px;
+    line-height: 1;
 }
 .ListItemLink:focus {
   box-shadow: 0 0 0 2px var(--violet7);

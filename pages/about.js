@@ -4,47 +4,26 @@ import {Instructor, InstructorInfo} from '../components/instructor'
 import utilStyles from '../styles/utils.module.css'
 import { useTranslation } from 'next-i18next'
 import Link from 'next/link'
-import Navbar from '../components/navbar';
+import Navbar from '../components/navbar'
 import SubscribeForm from "../components/newsletter"
-import React from 'react';
-import * as NavigationMenu from '@radix-ui/react-navigation-menu';
-import classNames from 'classnames';
-import { CaretDownIcon } from '@radix-ui/react-icons';
-import NavigationMenuDemo from '../components/navigation';
+import React from 'react'
+import * as NavigationMenu from '@radix-ui/react-navigation-menu'
+import classNames from 'classnames'
+import { CaretDownIcon } from '@radix-ui/react-icons'
+import NavigationMenuDemo from '../components/navigation'
+import 'bootstrap/dist/css/bootstrap.css'
+import Footer from '../components/footer'
+import CookieDisplay from '../components/cookie'
 
 export default function About() {
     const { t } = useTranslation('common')
 
     return (
         <div className={utilStyles.container}>
+            <CookieDisplay />
             <Head><title>MyWebClass.org | About</title></Head>
             <header className={utilStyles.header}>
                 <NavigationMenuDemo />
-                {/*} <nav className={utilStyles.navbar}>
-                  <ul className={utilStyles.navlist}>
-                    <li className={utilStyles.navitem}>
-                      <Link href="/" legacyBehavior>
-                        <a className={utilStyles.navlink}>MyWebClass</a>
-                      </Link>
-                    </li>
-                    <li className={utilStyles.navitem}>
-                      <Link href="/" legacyBehavior>
-                        <a className={utilStyles.navlink}>{t('Home')}</a>
-                      </Link>
-                    </li>
-                    <li className={utilStyles.navitem}>
-                      <Link href="/courses" legacyBehavior>
-                        <a className={utilStyles.navlink}>{t('Courses')}</a>
-                      </Link>
-                    </li>
-                    <li className={utilStyles.navitem}>
-                      <Link href="/about" legacyBehavior>
-                        <a className={utilStyles.navlink}>{t('About')}</a>
-                      </Link>
-                    </li>
-                  </ul>
-                </nav>
-                */}
             </header>
             <main className={utilStyles.main}>
                 <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
@@ -58,49 +37,42 @@ export default function About() {
 
                     <h1 className={utilStyles.heading2Xl}>{t('Meet The Instructors')}</h1>
                     <div className={utilStyles.imageContainer}>
-                        <Instructor name="Professor Name" id="professor" number="1"/>
-                        <Instructor name="Professor Name" id="professor" number="2"/>
-                        <Instructor name="Professor Name" id="professor" number="3"/>
+                        <Instructor name="Professor. Keith Williams" id="professor" number="1"/>
                     </div>
                     <div className={utilStyles.imageContainer}>
-                        <Instructor name="Instructor Name" id="instructor" number="4"/>
-                        <Instructor name="Instructor Name" id="instructor" number="5"/>
-                        <Instructor name="Instructor Name" id="instructor" number="6"/>
+                        <Instructor name="TA. Truong Dang" id="instructor" number="3"/>
+                        <Instructor name="TA. Callie Dieffenbach" id="instructor" number="4"/>
+                        <Instructor name="TA. Bryan Tello" id="instructor" number="5"/>
                     </div>
 
-                    <InstructorInfo name="Name 1" id="professor" number="1"
-                        intro="I am a <Subject> Professor in the <Name of department> department at <University>."
-                        edu="<B.S./M.S./PhD> in <Major> from the <University>"
+                    <InstructorInfo name="Keith Williams" id="professor" number="1"
+                        intro="I am a University Lecturer in the Informatics Department at New Jersey Institute of Technology."
+                        edu="M.S. in instructional design and technology from the Bloomsburg University of Pennsylvania."
+                        exp={["Over 20 years of experience in the software industry - as a software engineer, UX designer, system analyst and entrepreneur.",
+                              "Worked at the executive level for a seed capital investment fund overseeing the development of multiple startup companies.",
+                              "Worked professionally as a consultant on large software projects such as the development of eGovernment services for the Zambian government."]}
+                    />
+                    <InstructorInfo
+                        name="Truong Dang"
+                        id="instructor"
+                        number="3"
+                        intro="I am a Computer Science sophomore at New Jersey Institute of Technology."
+                        edu="B.S. in Computer Science from the New Jersey Institute of Technology"
+                        exp={["Mathematics Undergraduate Teacher Assistant at New Jersey Institute of Technology", "Data Structures & Algorithms Teacher Assistant at New Jersey Institute of Technology", "Software Engineer Intern at CRANE CP&E"]}
+                    />
+                    <InstructorInfo name="Callie Dieffenbach" id="instructor" number="4"
+                        intro="I am a <Major> <year> at New Jersey Institute of Technology."
+                        edu="B.S. in <Major> from the New Jersey Institute of Technology"
                         exp={["Experience 1", "Experience 2", "Experience 3"]}
                     />
-                    <InstructorInfo name="Name 2" id="professor" number="2"
-                        intro="I am a <Subject> Professor in the <Name of department> department at <University>."
-                        edu="<B.S./M.S./PhD> in <Major> from the <University>"
-                        exp={["Experience 1", "Experience 2", "Experience 3"]}
-                    />
-                    <InstructorInfo name="Name 1" id="professor" number="3"
-                        intro="I am a <Subject> Professor in the <Name of department> department at <University>."
-                        edu="<B.S./M.S./PhD> in <Major> from the <University>"
-                        exp={["Experience 1", "Experience 2", "Experience 3"]}
-                    />
-                    <InstructorInfo name="Name 4" id="instructor" number="4"
-                        intro="I am a <Major> <year> at <University>."
-                        edu="<B.S./M.S./PhD> in <Major> from the <University>"
-                        exp={["Experience 1", "Experience 2", "Experience 3"]}
-                    />
-                    <InstructorInfo name="Name 5" id="instructor" number="5"
-                        intro="I am a <Major> <year> at <University>."
-                        edu="<B.S./M.S./PhD> in <Major> from the <University>"
-                        exp={["Experience 1", "Experience 2", "Experience 3"]}
-                    />
-                    <InstructorInfo name="Name 6" id="instructor" number="6"
-                        intro="I am a <Major> <year> at <University>."
-                        edu="<B.S./M.S./PhD> in <Major> from the <University>"
+                    <InstructorInfo name="Bryan Tello" id="instructor" number="5"
+                        intro="I am a <Major> <year> at New Jersey Institute of Technology."
+                        edu="B.S. in <Major> from the New Jersey Institute of Technology"
                         exp={["Experience 1", "Experience 2", "Experience 3"]}
                     />
                 </section>
             </main>
-            <SubscribeForm/>
+            <Footer />
         </div>
     )
 }

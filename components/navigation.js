@@ -59,11 +59,21 @@ const NavigationMenuDemo = () => {
                 </NavigationMenu.Item>
 
                 <NavigationMenu.Item>
-                    <NavigationMenu.Link className="NavigationMenuLink" href="https://github.com/radix-ui">Github</NavigationMenu.Link>
+                    <NavigationMenu.Link className="NavigationMenuLink" href="https://github.com/NJIT-WIS/project-2-is218-cbt">Github</NavigationMenu.Link>
                 </NavigationMenu.Item>
 
                 <NavigationMenu.Item className ="Login">
-                    <NavigationMenu.Link className="NavigationMenuLink" href="/">Log In</NavigationMenu.Link>
+                    <NavigationMenu.Trigger className="NavigationMenuTrigger">
+                        Language Select
+                        <CaretDownIcon className="CaretDown" aria-hidden />
+                    </NavigationMenu.Trigger>
+                    <NavigationMenu.Content className="NavigationMenuContent">
+                        <ul className="List three">
+                            <ListItem title="English" href=""></ListItem>
+                            <ListItem title="French" href=""></ListItem>
+                            <ListItem title="Spanish" href="s"></ListItem>
+                        </ul>
+                    </NavigationMenu.Content>
                 </NavigationMenu.Item>
 
                 <NavigationMenu.Indicator className="NavigationMenuIndicator">

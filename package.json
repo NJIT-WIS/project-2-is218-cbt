@@ -19,6 +19,8 @@
     "fs": "0.0.1-security",
     "glob": "^9.3.2",
     "gray-matter": "^4.0.3",
+    "mdb-react-ui-kit": "^6.0.0",
+    "mdbreact": "^5.2.0",
     "next": "^13.3.0",
     "next-i18next": "^13.2.2",
     "radix-ui": "^1.0.1",
