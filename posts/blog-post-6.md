@@ -22,6 +22,8 @@ Artificial intelligence (AI) has been integrated into mobile phones to provide u
 
 Personal assistants like Siri, Google Assistant, and Alexa use AI to understand and respond to user voice commands, making it easier to perform tasks such as setting reminders, sending messages, and making calls.
 
+![img1](https://techjournal.org/wp-content/uploads/2021/10/What-Is-Artificial-Intelligence-Technology-In-Mobile-Phones.jpg)
+
 ## Predictive Text and Autocorrect
 
 Mobile keyboards use AI to predict the words a user is typing, providing suggestions for completion and autocorrecting errors. This improves typing efficiency and accuracy.
@@ -37,6 +39,8 @@ AI can also help optimize battery life by analyzing usage patterns and adjusting
 ## Virtual Reality and Augmented Reality
 
 AI is also being used in virtual and augmented reality applications, providing users with immersive and interactive experiences. Mobile phones are being used as a platform for AR and VR apps that use AI to track motion, recognize objects, and create 3D environments.
+
+![img2](https://themindstudios.com/blog/content/images/2018/06/brain-ai-for-mobile-apps.jpg)
 
 ## Health Monitoring
 
