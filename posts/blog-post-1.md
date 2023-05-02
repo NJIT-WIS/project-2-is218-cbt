@@ -1,7 +1,7 @@
 ---
 title: 'How cognitive technology is changing tertiary education'
-author: 'IBM'
 date: '2023-02-19'
+author: 'Truong Dang'
 tags:
   - AI
   - education
@@ -46,3 +46,5 @@ While Unitec eventually plans to put cognitive computing to work helping student
 “It used to take days or even weeks to analyse some of the trends to see how our enrolment campaigns were tracking against our historical data, but now we're reducing that to hours or even minutes,” **Ede** says. “A marketer can easily see whether the number of applications we've received for a particular course is down and then assess the best way to quickly turn that around.”
 
 *“Unitec can already see how cognitive computing can augment our capability to deal with complex and multi-layered challenges, helping us prepare our students for the challenges that lie ahead.”*
+
+[Back to home](/)

@@ -30,9 +30,9 @@ const NavigationMenuDemo = () => {
                                 </NavigationMenu.Link>
                             </li>
 
-                            <ListItem href="https://stitches.dev/" title="Course 1">Insert description</ListItem>
-                            <ListItem href="/colors" title="Course 2">Insert description</ListItem>
-                            <ListItem href="https://icons.radix-ui.com/" title="Course 3">Insert description</ListItem>
+                            <ListItem href="https://www.coursera.org/learn/ai-for-everyone?" title="AI For Everyone">AI's fundamentals, applications, and its impact on industries and society.</ListItem>
+                            <ListItem href="https://www.coursera.org/professional-certificates/applied-artifical-intelligence-ibm-watson-ai" title="IBM Applied AI">Practical applications of AI in various industries.</ListItem>
+                            <ListItem href="https://www.coursera.org/learn/python-for-applied-data-science-ai" title="Python for Data Science, AI & Development">Python programming for Data Science, AI, and Web Development.</ListItem>
                         </ul>
                     </NavigationMenu.Content>
                 </NavigationMenu.Item>
@@ -44,12 +44,12 @@ const NavigationMenuDemo = () => {
                     </NavigationMenu.Trigger>
                     <NavigationMenu.Content className="NavigationMenuContent">
                         <ul className="List two">
-                            <ListItem title="Introduction" href="/docs/primitives/overview/introduction">Build high-quality, accessible design systems and web apps.</ListItem>
-                            <ListItem title="Getting started" href="/docs/primitives/overview/getting-started">A quick tutorial to get you up and running with Radix Primitives.</ListItem>
-                            <ListItem title="Styling" href="/docs/primitives/overview/styling">Unstyled and compatible with any styling solution.</ListItem>
-                            <ListItem title="Animation" href="/docs/primitives/overview/animation">Use CSS keyframes or any animation library of your choice.</ListItem>
-                            <ListItem title="Accessibility" href="/docs/primitives/overview/accessibility">Tested in a range of browsers and assistive technologies.</ListItem>
-                            <ListItem title="Courses" href="/courses">Browse the entire course list.</ListItem>
+                            <ListItem title="How cognitive technology is changing tertiary education" href="/posts/blog-post-1">How cognitive tech transforms tertiary education with online learning, personalization, ad AI integration.</ListItem>
+                            <ListItem title="The Future of AI: Transforming Our World" href="/posts/blog-post-2">How AI could transform industries, jobs, and raise ethical issues.</ListItem>
+                            <ListItem title="AI Applications: Revolutionizing Industries and Everyday Life" href="/posts/blog-post-3">AI's impact on healthcare, finance, transportation & entertainment.</ListItem>
+                            <ListItem title="The Future of Web Development: Emerging Trends and Career Prospects" href="/posts/blog-post-4">Include emerging trends and career opportunities.</ListItem>
+                            <ListItem title="Applications of Web Development: Transforming Industries and User Experiences" href="/posts/blog-post-5">Impact on e-commerce, media, entertainment & mobile design.</ListItem>
+                            <ListItem title="Add Later" href="/courses">Add Later</ListItem>
                         </ul>
                     </NavigationMenu.Content>
                 </NavigationMenu.Item>
@@ -98,4 +98,4 @@ const ListItem = React.forwardRef(({ className, children, title, ...props }, for
     </li>
 ));
 
-export default NavigationMenuDemo;
+export default NavigationMenuDemo
