@@ -1,7 +1,7 @@
 ---
 title: 'The Future of Web Development: Emerging Trends and Career Prospects'
 author: 'OpenAI'
-date: '2023-02-19'
+date: '2023-03-25'
 tags:
   - web development
   - technology
@@ -64,3 +64,5 @@ To succeed in the evolving landscape of web development, aspiring web developers
 - Gain experience with emerging technologies, such as PWAs, WebAssembly, and JAMstack.
 - Develop a strong foundation in web design principles, including UX/UI design and responsive design.
 - Understand the importance of web accessibility and performance
+
+[Back to home](/)

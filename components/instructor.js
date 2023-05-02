@@ -6,9 +6,6 @@ import { useTranslation } from 'next-i18next';
 export function Instructor({name, id, number}) {
     const imageName = `/images/${id}${number % 2}.png`
     const realID = id + number
-    console.log({id})
-    console.log({number})
-    console.log({realID})
     return (
         <div className={utilStyles.image}>
             <img src={imageName} alt={id}/>
@@ -25,7 +22,6 @@ export function InstructorInfo({name, id, intro, edu, exp, number}) {
     else nameID = "Teacher Assistant"
 
     const realID = id + number
-    console.log({realID})
 
     const { t } = useTranslation('common')
 
