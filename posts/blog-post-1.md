@@ -1,7 +1,7 @@
 ---
 title: 'How cognitive technology is changing tertiary education'
 date: '2023-02-19'
-author: 'Truong Dang'
+author: 'Maxwell Parker'
 tags:
   - AI
   - education
