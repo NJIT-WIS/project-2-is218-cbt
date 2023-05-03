@@ -6,17 +6,18 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-export default function CourseItem({ courseTitle, courseDescribe, courseLevel, courseDuration, coursePrerequisite, number }) {
-    const imageName = `/images/course${number}.jpg`;
+export default function CourseItem({ courseTitle, courseDescribe, courseLevel, courseDuration, instructor, number }) {
+    const imageName = `/images/${number}.png`
+
     return (
         <div className={utilStyles.courseItem}>
-            <img src="/images/profile.jpg" alt="Course Image"/>
-            <h2>{courseTitle}</h2>
-            <p>{courseDescribe}</p>
+            <img src={imageName} alt="Course Image"/>
+            <h2 style={{color:'black'}}>{courseTitle}</h2>
+            <p style={{color:'#2a2d34'}}>{courseDescribe}</p>
             <ul>
-                <li><strong>Level:</strong> {courseLevel}</li>
-                <li><strong>Duration:</strong> {courseDuration} weeks</li>
-                <li><strong>Prerequisites:</strong> {coursePrerequisite}</li>
+                <li style={{color:'#2a2d34'}}><strong style={{color:'#0c0a1f'}}>Level:</strong> {courseLevel}</li>
+                <li style={{color:'#2a2d34'}}><strong style={{color:'#0c0a1f'}}>Duration:</strong> {courseDuration} weeks</li>
+                <li style={{color:'#2a2d34'}}><strong style={{color:'#0c0a1f'}}>Instructor:</strong> {instructor}</li>
             </ul>
             <a href="/">Learn More</a>
         </div>

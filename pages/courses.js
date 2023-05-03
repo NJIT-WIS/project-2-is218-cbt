@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Layout from '../components/layout'
+import Layout, { siteTitle } from '../components/layout'
 import CourseItem from '../components/courseitem'
 import utilStyles from '../styles/utils.module.css'
 import Date from '../components/date'
@@ -9,10 +9,13 @@ import Link from 'next/link'
 import ReactGA from 'react-ga'
 import SubscribeForm from "../components/newsletter"
 import Navbar from '../components/navbar'
-import * as NavigationMenu from '@radix-ui/react-navigation-menu';
-import classNames from 'classnames';
-import { CaretDownIcon } from '@radix-ui/react-icons';
-import NavigationMenuDemo from '../components/navigation';
+import * as NavigationMenu from '@radix-ui/react-navigation-menu'
+import classNames from 'classnames'
+import { CaretDownIcon } from '@radix-ui/react-icons'
+import NavigationMenuDemo from '../components/navigation'
+import 'bootstrap/dist/css/bootstrap.css'
+import Footer from '../components/footer'
+import aboutUI from '../styles/about.module.css'
 
 
 export default function Courses() {
@@ -36,24 +39,37 @@ export default function Courses() {
         </header>
     <div className={utilStyles.wrapper}>
             <main className={utilStyles.main}>
+                <div className={aboutUI.aboutSection}>
+                    <h1 className={utilStyles.heading2Xl}>Course Catalog</h1>
+                    <h3 style={{color: '#757f86'}}>{siteTitle} is featured with Coursera</h3>
+                    <h5 style={{color: '#757f86'}}>Invest in your professional goals with Coursera Plus</h5>
+                </div>
 
-                <h1 className={utilStyles.h1}>Course Catalog</h1>
                 <div className={utilStyles.courseList}>
-                    <CourseItem courseTitle = "Course Title 1" courseDescribe = "Course Description 1" courseLevel = "Course Level 1"
-                        courseDuration = "Course Duration 1" coursePrerequisite = "Courses" number = "1" />
-                    <CourseItem courseTitle = "Course Title 2" courseDescribe = "Course Description 2" courseLevel = "Course Level 2"
-                        courseDuration = "Course Duration 2" coursePrerequisite = "Courses" number = "2" />
-                    <CourseItem courseTitle = "Course Title 3" courseDescribe = "Course Description 3" courseLevel = "Course Level 3"
-                        courseDuration = "Course Duration 3" coursePrerequisite = "Courses" number = "3" />
-                    <CourseItem courseTitle = "Course Title 4" courseDescribe = "Course Description 4" courseLevel = "Course Level 4"
-                        courseDuration = "Course Duration 4" coursePrerequisite = "Courses" number = "4" />
-                    <CourseItem courseTitle = "Course Title 5" courseDescribe = "Course Description 5" courseLevel = "Course Level 5"
-                        courseDuration = "Course Duration 5" coursePrerequisite = "Courses" number = "5" />
+                    <CourseItem courseTitle="AI For Everyone"
+                                courseDescribe="AI is not only for engineers. If you want your organization to become better at using AI, this is the course to tell everyone - especially your non-technical colleagues - to take. "
+                                courseLevel="Beginner" courseDuration="4" instructor="Andrew Ng" number="deeplearningai"/>
+                    <CourseItem courseTitle="Getting Started with AI using IBM Watson"
+                                courseDescribe="Kickstart your career in artificial intelligence. Learn Python, build a chatbot, explore machine learning and computer vision, and leverage IBM Watson."
+                                courseLevel="Beginner" courseDuration="4" instructor="Rav Ahuja" number="ibm" />
+                    <CourseItem courseTitle="Python for Data Science, AI & Development"
+                                courseDescribe="Python is one of the most popular languages in the programming and data science. Demand for individuals who have the ability to apply Python is very high."
+                                courseLevel="Beginner" courseDuration="5" instructor="Joseph Santarcangelo" number="ibm"/>
+                    <CourseItem courseTitle="Building AI Applications with Watson APIs"
+                                courseDescribe="Kickstart your career in artificial intelligence. Use Python and Watson APIs to publish AI applications."
+                                courseLevel="Intermediate" courseDuration="8" instructor="Antonio Cangiano" number="ibm"/>
+                    <CourseItem courseTitle="Advanced React"
+                                courseDescribe="Launch your career as a front-end developer. Build skills for career and earn a credential from Meta."
+                                courseLevel="Intermediate" courseDuration="8" instructor="Meta Staff" number="meta"/>
+                    <CourseItem courseTitle="Advanced Django: Building a Blog"
+                                courseDescribe="Create a blog an an accompanying API using industry-standard tools and software packages without installing."
+                                courseLevel="Advanced" courseDuration="4" instructor="Patrick Ester, Ben Shaw" number="codio"/>
                 </div>
             </main>
             </div>
 
             <SubscribeForm/>
+            <Footer />
         </div>
     )
 }

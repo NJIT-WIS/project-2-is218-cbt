@@ -50,7 +50,7 @@ export default function About() {
                             <img src="/images/instructor0.png" alt="callie"/>
                             <div className={aboutUI.container}>
                                 <h2 className={aboutUI.H2}>Callie Dieffenbach</h2>
-                                <p className={aboutUI.title}>Add later</p>
+                                <p className={aboutUI.title}>Web & Information System 2024</p>
                                 <p>Some text that describes me lorem ipsum ipsum lorem.</p>
                                 <p>mike@example.com</p>
                                 <p className={aboutUI.H2}><button className={aboutUI.button}>Contact</button></p>

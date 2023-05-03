@@ -1,23 +1,22 @@
 .Footer container {
-     max-height: 2em;
+    max-height: 2em;
     position:relative;
-
-
-
-      text-align: center;
-
+    text-align: center;
 }
+
 .Footer p {
  background-color: #3261A7;
  color: white;
 
-
 }
 
 .Footer footer {
-      max-height: 2em;
+    max-height: 2em;
+    left:0;
+    bottom:0;
+    right:0;
+}
 
-left:0;
-bottom:0;
-right:0;
+.Footer a {
+    text-decoration: none;
 }
