@@ -22,7 +22,10 @@ export default function About() {
     return (
         <div className={utilStyles.container}>
             <CookieDisplay />
-            <Head><title>MyWebClass.org | About</title></Head>
+            <Head>
+                <title>MyWebClass.org | About</title>
+                <link rel="icon" href="/images/favicon.ico" />
+            </Head>
             <header className={utilStyles.header}><NavigationMenuDemo/></header>
             <main className={utilStyles.main}>
                 <div className={aboutUI.aboutSection}>
