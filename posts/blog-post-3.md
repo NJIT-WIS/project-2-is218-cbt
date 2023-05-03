@@ -1,6 +1,6 @@
 ---
 title: 'AI Applications: Revolutionizing Industries and Everyday Life'
-author: 'OpenAI'
+author: 'Ethan Chen'
 date: '2023-03-19'
 tags:
   - AI
