@@ -1,6 +1,6 @@
 ---
 title: 'Applications of AI on Mobile Phones'
-author: 'OpenAI'
+author: 'Avery Thompson'
 date: '2023-05-02'
 tags:
   - AI
