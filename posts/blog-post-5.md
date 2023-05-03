@@ -1,6 +1,6 @@
 ---
 title: 'Applications of Web Development: Transforming Industries and User Experiences'
-author: 'OpenAI'
+author: 'Oliver Nguyen'
 date: '2023-04-15'
 tags:
   - web development
