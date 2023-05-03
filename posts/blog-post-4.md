@@ -1,6 +1,6 @@
 ---
 title: 'The Future of Web Development: Emerging Trends and Career Prospects'
-author: 'OpenAI'
+author: 'Samantha Patel'
 date: '2023-03-25'
 tags:
   - web development
