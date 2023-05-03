@@ -1,6 +1,6 @@
 ---
 title: 'The Future of AI: Transforming Our World'
-author: 'OpenAI'
+author: 'Lena Hayes'
 date: '2023-02-21'
 tags:
   - AI
