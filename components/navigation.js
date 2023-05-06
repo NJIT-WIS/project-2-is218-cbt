@@ -12,7 +12,7 @@ const NavigationMenuDemo = () => {
                 <NavigationMenu.Item>
                     <NavigationMenu.Trigger className="NavigationMenuTrigger">
                         Courses
-                        <CaretDownIcon className="CaretDown" aria-hidden />
+                        <CaretDownIcon className="CaretDown" aria-hidden/>
                     </NavigationMenu.Trigger>
                     <NavigationMenu.Content className="NavigationMenuContent">
                         <ul className="List one">
@@ -59,7 +59,7 @@ const NavigationMenuDemo = () => {
                 </NavigationMenu.Item>
 
                 <NavigationMenu.Item>
-                    <NavigationMenu.Link className="NavigationMenuLink" href="https://github.com/NJIT-WIS/project-2-is218-cbt">Github</NavigationMenu.Link>
+                    <NavigationMenu.Link className="NavigationMenuLink" target="blank" href="https://github.com/NJIT-WIS/project-2-is218-cbt">Github</NavigationMenu.Link>
                 </NavigationMenu.Item>
 
                 <NavigationMenu.Item className ="Login">
@@ -85,7 +85,7 @@ const NavigationMenuDemo = () => {
             </div>
         </NavigationMenu.Root>
     )
-};
+}
 
 const ListItem = React.forwardRef(({ className, children, title, ...props }, forwardedRef) => (
     <li>
@@ -96,6 +96,6 @@ const ListItem = React.forwardRef(({ className, children, title, ...props }, for
             </a>
         </NavigationMenu.Link>
     </li>
-));
+))
 
 export default NavigationMenuDemo

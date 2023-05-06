@@ -47,3 +47,5 @@ AI is also being used in virtual and augmented reality applications, providing u
 Mobile health and fitness apps are using AI to track physical activity, monitor health indicators, and provide personalized recommendations for diet and exercise. Some mobile phones also include biometric sensors that can measure heart rate, blood pressure, and other vital signs.
 
 In conclusion, AI has revolutionized the mobile phone industry, transforming the way users interact with their devices and providing them with more personalized and efficient experiences.
+
+[&larr; Back to home](/)

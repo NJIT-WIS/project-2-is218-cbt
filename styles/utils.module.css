@@ -1,9 +1,9 @@
 .heading2Xl {
-  font-size: 2.5rem;
-  line-height: 1.2;
-  font-weight: 800;
-  letter-spacing: -0.05rem;
-  margin: 1rem 0;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 1rem 0;
 
 }
 
@@ -12,48 +12,48 @@
 }
 
 .headingXl {
-  font-size: 2rem;
-  line-height: 1.3;
-  font-weight: 800;
-  letter-spacing: -0.05rem;
-  margin: 1rem 0;
+    font-size: 2rem;
+    line-height: 1.3;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 1rem 0;
 }
 
 .headingLg {
-  font-size: 1.5rem;
-  line-height: 1.4;
-  margin: 1rem 0;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin: 1rem 0;
 }
 
 .headingMd {
-  font-size: 1.2rem;
-  line-height: 1.5;
+    font-size: 1.2rem;
+    line-height: 1.5;
 }
 
 .borderCircle {
-  border-radius: 9999px;
+    border-radius: 9999px;
 }
 
 .colorInherit {
-  color: inherit;
+    color: inherit;
 }
 
 .padding1px {
-  padding-top: 1px;
+    padding-top: 1px;
 }
 
 .list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .listItem {
-  margin: 0 0 1.25rem;
+    margin: 0 0 1.25rem;
 }
 
 .lightText {
-  color: #666;
+    color: #666;
 }
 
 .imageContainer {
@@ -63,36 +63,35 @@
 }
 
 .image {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 20px;
-  margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 0;
 }
 
 .image img {
-  width: 50%;
-  max-width: 400px;
-  height: auto;
+    width: 50%;
+    max-width: 400px;
+    height: auto;
 }
 
 .image button {
-  margin-top: 10px;
-  padding: 10px 20px;
-  border: none;
-  background-color: #0070f3;
-  color: white;
-  font-size: 1rem;
-  cursor: pointer;
-  border-radius: 8px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #0070f3;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 8px;
 }
 
 .image button:hover {
-  background-color: #0062cc;
+    background-color: #0062cc;
 }
 
 /* for course list */
-
 .h1 {
     text-align: center;
     color: black;
@@ -121,6 +120,7 @@
     margin-left: 2em;
     margin-right: 2em;
     padding-top: 20px;
+    justify-content: center;
 }
 .courseItem {
     display: flex;
@@ -130,13 +130,11 @@
     margin-left: 2em;
     flex-direction: column;
     align-items: center;
-
     /*margin: 0 2% 2% 0;*/
     padding: 1rem;
     background: linear-gradient(135deg, #938de2, #d8d5ee);
-    border-radius: 5px;
+    border-radius: 10px;
 }
-
 
 .courseItem a {
     font-weight: bold;
@@ -154,36 +152,36 @@
 }
 
 .courseItem img {
-  width: 40%;
-  height: auto;
-  border-radius: 8px;
-  margin-bottom: 16px;
+    width: 40%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 16px;
 }
 
 .courseItem h2 {
-  font-size: 1.2rem;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .courseItem p {
-  font-size: 1rem;
-  text-align: center;
-  margin-bottom: 16px;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 16px;
 }
 
 .courseItem button {
-  background-color: #0070f3;
-  color: #fff;
-  border: none;
-  border-radius: 8px;
-  padding: 8px 16px;
-  font-size: 1rem;
-  cursor: pointer;
+    background-color: #0070f3;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 1rem;
+    cursor: pointer;
 }
 .courseItem button:hover {
-  background-color: #0062cc;
+    background-color: #0062cc;
 }
 
 .courseItem ul {
@@ -209,6 +207,5 @@
 }
 
 .buttonIndex:hover {
-  background-color: #3e8e41;
+    background-color: #3e8e41;
 }
-
