@@ -15,11 +15,16 @@ import classNames from 'classnames'
 import { CaretDownIcon } from '@radix-ui/react-icons'
 import NavigationMenuDemo from '../components/navigation'
 import CookieDisplay from '../components/cookie'
+import PopUp from '../components/popUp'
+
 
 export default function Home({ allPostsData }) {
+
     const { t } = useTranslation('common')
     return (
         <div>
+        <PopUp />
+        <div class="content">
             <CookieDisplay />
             <NavigationMenuDemo />
             <HeroSection />
@@ -36,12 +41,13 @@ export default function Home({ allPostsData }) {
                 </section>
             </Layout>
             <Footer />
+            </div>
         </div>
     );
 }
 
 export async function getStaticProps() {
-    const allPostsData = getSortedPostsData()
+    const allPostsData = getSortedPostsData();
     return {
         props: {
             allPostsData
