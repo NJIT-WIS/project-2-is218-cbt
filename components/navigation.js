@@ -12,7 +12,7 @@ const NavigationMenuDemo = () => {
                 <NavigationMenu.Item>
                     <NavigationMenu.Trigger className="NavigationMenuTrigger">
                         Courses
-                        <CaretDownIcon className="CaretDown" aria-hidden />
+                        <CaretDownIcon className="CaretDown" aria-hidden/>
                     </NavigationMenu.Trigger>
                     <NavigationMenu.Content className="NavigationMenuContent">
                         <ul className="List one">
@@ -31,8 +31,8 @@ const NavigationMenuDemo = () => {
                             </li>
 
                             <ListItem href="https://www.coursera.org/learn/ai-for-everyone?" title="AI For Everyone">AI's fundamentals, applications, and its impact on industries and society.</ListItem>
-                            <ListItem href="https://www.coursera.org/professional-certificates/applied-artifical-intelligence-ibm-watson-ai" title="IBM Applied AI">Practical applications of AI in various industries.</ListItem>
-                            <ListItem href="https://www.coursera.org/learn/python-for-applied-data-science-ai" title="Python for Data Science, AI & Development">Python programming for Data Science, AI, and Web Development.</ListItem>
+                            <ListItem href="https://www.coursera.org/learn/ai-with-ibm-watson?specialization=applied-artifical-intelligence-ibm-watson-ai" title="Getting Started with AI using IBM Watson">Practical applications of AI in various industries.</ListItem>
+                            <ListItem href="https://www.coursera.org/learn/python-for-applied-data-science-ai" title="Python for Data Science, AI & Development">Python for data science, AI, and web development.</ListItem>
                         </ul>
                     </NavigationMenu.Content>
                 </NavigationMenu.Item>
@@ -48,8 +48,8 @@ const NavigationMenuDemo = () => {
                             <ListItem title="The Future of AI: Transforming Our World" href="/posts/blog-post-2">How AI could transform industries, jobs, and raise ethical issues.</ListItem>
                             <ListItem title="AI Applications: Revolutionizing Industries and Everyday Life" href="/posts/blog-post-3">AI's impact on healthcare, finance, transportation & entertainment.</ListItem>
                             <ListItem title="The Future of Web Development: Emerging Trends and Career Prospects" href="/posts/blog-post-4">Include emerging trends and career opportunities.</ListItem>
-                            <ListItem title="Applications of Web Development: Transforming Industries and User Experiences" href="/posts/blog-post-5">Impact on e-commerce, media, entertainment & mobile design.</ListItem>
-                            <ListItem title="Add Later" href="/courses">Add Later</ListItem>
+                            <ListItem title="Applications of Web Development: Industries and User Experiences" href="/posts/blog-post-5">Impact on e-commerce, media, entertainment & mobile design.</ListItem>
+                            <ListItem title="Applications of AI on Mobile Phones" href="/posts/blog-post-6">iPhone's Face ID, Google Pixel's Super Res Zoom, etc.</ListItem>
                         </ul>
                     </NavigationMenu.Content>
                 </NavigationMenu.Item>
@@ -59,7 +59,7 @@ const NavigationMenuDemo = () => {
                 </NavigationMenu.Item>
 
                 <NavigationMenu.Item>
-                    <NavigationMenu.Link className="NavigationMenuLink" href="https://github.com/NJIT-WIS/project-2-is218-cbt">Github</NavigationMenu.Link>
+                    <NavigationMenu.Link className="NavigationMenuLink" target="blank" href="https://github.com/NJIT-WIS/project-2-is218-cbt">Github</NavigationMenu.Link>
                 </NavigationMenu.Item>
 
                 <NavigationMenu.Item className ="Login">
@@ -85,7 +85,7 @@ const NavigationMenuDemo = () => {
             </div>
         </NavigationMenu.Root>
     )
-};
+}
 
 const ListItem = React.forwardRef(({ className, children, title, ...props }, forwardedRef) => (
     <li>
@@ -96,6 +96,6 @@ const ListItem = React.forwardRef(({ className, children, title, ...props }, for
             </a>
         </NavigationMenu.Link>
     </li>
-));
+))
 
 export default NavigationMenuDemo

@@ -1,7 +1,7 @@
 ---
 title: 'How cognitive technology is changing tertiary education'
 date: '2023-02-19'
-author: 'Truong Dang'
+author: 'Maxwell Parker'
 tags:
   - AI
   - education
@@ -47,4 +47,4 @@ While Unitec eventually plans to put cognitive computing to work helping student
 
 *“Unitec can already see how cognitive computing can augment our capability to deal with complex and multi-layered challenges, helping us prepare our students for the challenges that lie ahead.”*
 
-[Back to home](/)
+[&larr; Back to home](/)

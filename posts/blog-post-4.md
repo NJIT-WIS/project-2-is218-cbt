@@ -1,6 +1,6 @@
 ---
 title: 'The Future of Web Development: Emerging Trends and Career Prospects'
-author: 'OpenAI'
+author: 'Samantha Patel'
 date: '2023-03-25'
 tags:
   - web development
@@ -65,4 +65,4 @@ To succeed in the evolving landscape of web development, aspiring web developers
 - Develop a strong foundation in web design principles, including UX/UI design and responsive design.
 - Understand the importance of web accessibility and performance
 
-[Back to home](/)
+[&larr; Back to home](/)

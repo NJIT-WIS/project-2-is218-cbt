@@ -1,6 +1,6 @@
 ---
 title: 'AI Applications: Revolutionizing Industries and Everyday Life'
-author: 'OpenAI'
+author: 'Ethan Chen'
 date: '2023-03-19'
 tags:
   - AI
@@ -60,4 +60,4 @@ AI-powered natural language processing (NLP) technologies are enhancing communic
 
 As AI continues to advance, its applications will continue to expand and evolve, offering new opportunities and challenges. By harnessing the power of AI, we can drive innovation, improve efficiency, and enhance the quality of life for people around the world.
 
-[Back to home](/)
+[&larr; Back to home](/)

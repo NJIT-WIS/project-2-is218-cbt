@@ -1,6 +1,6 @@
 ---
 title: 'Applications of Web Development: Transforming Industries and User Experiences'
-author: 'OpenAI'
+author: 'Oliver Nguyen'
 date: '2023-04-15'
 tags:
   - web development
@@ -48,4 +48,4 @@ Customer relationship management (CRM) systems rely on web development to provid
 
 ![img5](https://imageio.forbes.com/blogs-images/bernardmarr/files/2018/09/AdobeStock_203804824-1200x480.jpg?height=284&width=711&fit=bounds)
 
-[Back to home](/)
+[&larr; Back to home](/)

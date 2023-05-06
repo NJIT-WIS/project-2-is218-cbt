@@ -22,7 +22,10 @@ export default function About() {
     return (
         <div className={utilStyles.container}>
             <CookieDisplay />
-            <Head><title>MyWebClass.org | About</title></Head>
+            <Head>
+                <title>MyWebClass.org | About</title>
+                <link rel="icon" href="/images/favicon.ico" />
+            </Head>
             <header className={utilStyles.header}><NavigationMenuDemo/></header>
             <main className={utilStyles.main}>
                 <div className={aboutUI.aboutSection}>
@@ -40,7 +43,7 @@ export default function About() {
                                 <p className={aboutUI.title}>Business & Information Systems 2023</p>
                                 <p>Some text that describes me lorem ipsum ipsum lorem.</p>
                                 <p>bat26@njit.edu</p>
-                                <p className={aboutUI.H2}><button className={aboutUI.button}>Contact</button></p>
+                                <p className={aboutUI.H2}><a href="mailto:bat26@njit.edu"><button className={aboutUI.button}>Contact</button></a></p>
                             </div>
                         </div>
                     </div>
@@ -50,10 +53,10 @@ export default function About() {
                             <img src="/images/instructor0.png" alt="callie"/>
                             <div className={aboutUI.container}>
                                 <h2 className={aboutUI.H2}>Callie Dieffenbach</h2>
-                                <p className={aboutUI.title}>Add later</p>
+                                <p className={aboutUI.title}>Web & Information System 2024</p>
                                 <p>Some text that describes me lorem ipsum ipsum lorem.</p>
                                 <p>mike@example.com</p>
-                                <p className={aboutUI.H2}><button className={aboutUI.button}>Contact</button></p>
+                                <p className={aboutUI.H2}><a href="mailto:cd448@njit.edu"><button className={aboutUI.button}>Contact</button></a></p>
                             </div>
                         </div>
                     </div>
@@ -66,7 +69,7 @@ export default function About() {
                                 <p className={aboutUI.title}>Computer Science 2025</p>
                                 <p>Some text that describes me lorem ipsum ipsum lorem.</p>
                                 <p>tdd4@njit.edu</p>
-                                <p className={aboutUI.H2}><button className={aboutUI.button}>Contact</button></p>
+                                <p className={aboutUI.H2}><a href="mailto:tdd4@njit.edu"><button className={aboutUI.button}>Contact</button></a></p>
                             </div>
                         </div>
                     </div>
