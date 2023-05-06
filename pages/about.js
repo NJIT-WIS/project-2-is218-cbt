@@ -43,7 +43,7 @@ export default function About() {
                                 <p className={aboutUI.title}>Business & Information Systems 2023</p>
                                 <p>Some text that describes me lorem ipsum ipsum lorem.</p>
                                 <p>bat26@njit.edu</p>
-                                <p className={aboutUI.H2}><button className={aboutUI.button}>Contact</button></p>
+                                <p className={aboutUI.H2}><a href="mailto:bat26@njit.edu"><button className={aboutUI.button}>Contact</button></a></p>
                             </div>
                         </div>
                     </div>
@@ -56,7 +56,7 @@ export default function About() {
                                 <p className={aboutUI.title}>Web & Information System 2024</p>
                                 <p>Some text that describes me lorem ipsum ipsum lorem.</p>
                                 <p>mike@example.com</p>
-                                <p className={aboutUI.H2}><button className={aboutUI.button}>Contact</button></p>
+                                <p className={aboutUI.H2}><a href="mailto:cd448@njit.edu"><button className={aboutUI.button}>Contact</button></a></p>
                             </div>
                         </div>
                     </div>
@@ -69,7 +69,7 @@ export default function About() {
                                 <p className={aboutUI.title}>Computer Science 2025</p>
                                 <p>Some text that describes me lorem ipsum ipsum lorem.</p>
                                 <p>tdd4@njit.edu</p>
-                                <p className={aboutUI.H2}><button className={aboutUI.button}>Contact</button></p>
+                                <p className={aboutUI.H2}><a href="mailto:tdd4@njit.edu"><button className={aboutUI.button}>Contact</button></a></p>
                             </div>
                         </div>
                     </div>

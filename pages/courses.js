@@ -35,40 +35,39 @@ export default function Courses() {
                 }}></script>
             </Head>
 
-        <header className={utilStyles.header}>
-            <NavigationMenuDemo />
-        </header>
-    <div className={utilStyles.wrapper}>
-            <main className={utilStyles.main}>
-                <div className={aboutUI.aboutSection}>
-                    <h1 className={utilStyles.heading2Xl}>Course Catalog</h1>
-                    <h3 style={{color: '#757f86'}}>{siteTitle} is featured with Coursera</h3>
-                    <h5 style={{color: '#757f86'}}>Invest in your professional goals with Coursera Plus</h5>
-                </div>
+            <header className={utilStyles.header}>
+                <NavigationMenuDemo />
+            </header>
+            <div className={utilStyles.wrapper}>
+                <main className={utilStyles.main}>
+                    <div className={aboutUI.aboutSection}>
+                        <h1 className={utilStyles.heading2Xl}>Course Catalog</h1>
+                        <h3 style={{color: '#757f86'}}>{siteTitle} is featured with <strong>Coursera</strong></h3>
+                        <h5 style={{color: '#757f86'}}>Sign up to {siteTitle}'s newsletter to get discount on featuring courses on <strong>Coursera</strong></h5>
+                    </div>
 
-                <div className={utilStyles.courseList}>
-                    <CourseItem courseTitle="AI For Everyone"
-                                courseDescribe="AI is not only for engineers. If you want your organization to become better at using AI, this is the course to tell everyone - especially your non-technical colleagues - to take. "
-                                courseLevel="Beginner" courseDuration="4" instructor="Andrew Ng" number="deeplearningai"/>
-                    <CourseItem courseTitle="Getting Started with AI using IBM Watson"
-                                courseDescribe="Kickstart your career in artificial intelligence. Learn Python, build a chatbot, explore machine learning and computer vision, and leverage IBM Watson."
-                                courseLevel="Beginner" courseDuration="4" instructor="Rav Ahuja" number="ibm" />
-                    <CourseItem courseTitle="Python for Data Science, AI & Development"
-                                courseDescribe="Python is one of the most popular languages in the programming and data science. Demand for individuals who have the ability to apply Python is very high."
-                                courseLevel="Beginner" courseDuration="5" instructor="Joseph Santarcangelo" number="ibm"/>
-                    <CourseItem courseTitle="Building AI Applications with Watson APIs"
-                                courseDescribe="Kickstart your career in artificial intelligence. Use Python and Watson APIs to publish AI applications."
-                                courseLevel="Intermediate" courseDuration="8" instructor="Antonio Cangiano" number="ibm"/>
-                    <CourseItem courseTitle="Advanced React"
-                                courseDescribe="Launch your career as a front-end developer. Build skills for career and earn a credential from Meta."
-                                courseLevel="Intermediate" courseDuration="8" instructor="Meta Staff" number="meta"/>
-                    <CourseItem courseTitle="Advanced Django: Building a Blog"
-                                courseDescribe="Create a blog an an accompanying API using industry-standard tools and software packages without installing."
-                                courseLevel="Advanced" courseDuration="4" instructor="Patrick Ester, Ben Shaw" number="codio"/>
-                </div>
-            </main>
+                    <div className={utilStyles.courseList}>
+                        <CourseItem courseTitle="AI For Everyone"
+                                    courseDescribe="AI is not only for engineers. If you want your organization to become better at using AI, this is the course to tell everyone - especially your non-technical colleagues - to take. "
+                                    courseLevel="Beginner" courseDuration="4" instructor="Andrew Ng" number="deeplearningai" link="https://www.coursera.org/learn/ai-for-everyone?"/>
+                        <CourseItem courseTitle="Getting Started with AI using IBM Watson"
+                                    courseDescribe="Kickstart your career in artificial intelligence. Learn Python, build a chatbot, explore machine learning and computer vision, and leverage IBM Watson."
+                                    courseLevel="Beginner" courseDuration="4" instructor="Rav Ahuja" number="ibm" link="https://www.coursera.org/learn/ai-with-ibm-watson"/>
+                        <CourseItem courseTitle="Python for Data Science, AI & Development"
+                                    courseDescribe="Python is one of the most popular languages in the programming and data science. Demand for individuals who have the ability to apply Python is very high."
+                                    courseLevel="Beginner" courseDuration="5" instructor="Joseph Santarcangelo" number="ibm" link="https://www.coursera.org/learn/python-for-applied-data-science-ai?"/>
+                        <CourseItem courseTitle="Building AI Applications with Watson APIs"
+                                    courseDescribe="Kickstart your career in artificial intelligence. Use Python and Watson APIs to publish AI applications."
+                                    courseLevel="Intermediate" courseDuration="8" instructor="Antonio Cangiano" number="ibm" link="https://www.coursera.org/learn/building-ai-applications?"/>
+                        <CourseItem courseTitle="Advanced React"
+                                    courseDescribe="Launch your career as a front-end developer. Build skills for career and earn a credential from Meta."
+                                    courseLevel="Intermediate" courseDuration="8" instructor="Meta Staff" number="meta" link="https://www.coursera.org/learn/advanced-react?"/>
+                        <CourseItem courseTitle="Advanced Django: Building a Blog"
+                                    courseDescribe="Create a blog an an accompanying API using industry-standard tools and software packages without installing."
+                                    courseLevel="Advanced" courseDuration="4" instructor="Patrick Ester, Ben Shaw" number="codio" link="https://www.coursera.org/learn/codio-advanced-django-building-blog?"/>
+                    </div>
+                </main>
             </div>
-
             <SubscribeForm/>
             <Footer />
         </div>

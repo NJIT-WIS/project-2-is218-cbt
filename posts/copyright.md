@@ -1,6 +1,6 @@
 ---
 title: 'Copyright Notice'
-date: '2023-04-13'
+date: '2020-04-13'
 ---
 
 ## Copyright © 2023 CBT
@@ -22,3 +22,5 @@ CBT takes the protection of its intellectual property very seriously and will ta
 If you believe that any materials on this website infringe upon your copyright, please contact us immediately using the contact information provided on this website.
 
 Thank you for your cooperation in protecting the intellectual property of CBT.
+
+[&larr; Back to home](/)

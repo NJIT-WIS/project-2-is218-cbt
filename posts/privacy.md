@@ -1,6 +1,6 @@
 ---
 title: 'Privacy Policy'
-date: '2023-04-13'
+date: '2020-04-13'
 ---
 
 At **CBT**, we are committed to protecting the privacy of our users and ensuring compliance with the **General Data Protection Regulation (GDPR)**. This privacy policy outlines the personal data we collect, process, and store, as well as the measures we take to safeguard your information.
@@ -44,3 +44,5 @@ If we are required to appoint a Data Protection Officer under GDPR, their contac
 154 Summit Street, Newark, NJ 07102 <br>
     
 Please note that this privacy policy is subject to change. We encourage you to review it periodically to stay informed about our data protection practices. If we make any material changes to this policy, we will notify you through our website or by email, as appropriate.
+
+[&larr; Back to home](/)

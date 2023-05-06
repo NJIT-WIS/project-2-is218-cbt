@@ -13,12 +13,12 @@ function Footer() {
             <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom' style={{backgroundColor: '#def8fd'}}>
                 <div className='me-5 d-none d-lg-block'><span>Get connected with us on social networks:</span></div>
                 <div>
-                    <a href='https://www.facebook.com/ducthuansidco' className='me-4 text-reset'><MDBIcon fab icon="facebook-f"/></a>
-                    <a href='' className='me-4 text-reset' style={{color: 'white' }}><MDBIcon fab icon="twitter"/></a>
-                    <a href='' className='me-4 text-reset'><MDBIcon fab icon="google"/></a>
-                    <a href='https://www.instagram.com/ai.desires/' className='me-4 text-reset'><MDBIcon fab icon="instagram" /></a>
-                    <a href='https://www.linkedin.com/in/2dt/' className='me-4 text-reset'><MDBIcon fab icon='linkedin' /></a>
-                    <a href='https://github.com/NJIT-WIS/project-2-is218-cbt' className='me-4 text-reset'><MDBIcon fab icon="github" /></a>
+                    <a target="blank" href='https://www.facebook.com/ducthuansidco' className='me-4 text-reset'><MDBIcon fab icon="facebook-f"/></a>
+                    <a target="blank" href='' className='me-4 text-reset' style={{color: 'white' }}><MDBIcon fab icon="twitter"/></a>
+                    <a target="blank" href='' className='me-4 text-reset'><MDBIcon fab icon="google"/></a>
+                    <a target="blank" href='https://www.instagram.com/ai.desires/' className='me-4 text-reset'><MDBIcon fab icon="instagram" /></a>
+                    <a target="blank" href='https://www.linkedin.com/in/2dt/' className='me-4 text-reset'><MDBIcon fab icon='linkedin' /></a>
+                    <a target="blank" href='https://github.com/NJIT-WIS/project-2-is218-cbt' className='me-4 text-reset'><MDBIcon fab icon="github" /></a>
                 </div>
             </section>
 
@@ -31,12 +31,11 @@ function Footer() {
                         </MDBCol>
 
                         <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
-                            <h6 className='text-uppercase fw-bold mb-4'>COURSES</h6>
-                            <p><a href='#!' className='text-reset'>COURSE 1</a></p>
-                            <p><a href='#!' className='text-reset'>COURSE 2</a></p>
-                            <p><a href='#!' className='text-reset'>COURSE 3</a></p>
-                            <p><a href='#!' className='text-reset'>COURSE 4</a>
-                            </p>
+                            <h6 className='text-uppercase fw-bold mb-4'>MATERIALS</h6>
+                            <p><a href='/' className='text-reset'>HOME</a></p>
+                            <p><a href='/courses' className='text-reset'>COURSES</a></p>
+                            <p><a href='#!' className='text-reset'>BLOGS</a></p>
+                            <p><a href='/about' className='text-reset'>ABOUT US</a></p>
                         </MDBCol>
 
                         <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
@@ -46,15 +45,10 @@ function Footer() {
 
                         <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
                             <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
-                            <p>
-                                <MDBIcon icon="home" className="me-2" />Newark, NJ 07103, USA
-                            </p>
-                            <p>
-                                <MDBIcon icon="envelope" className="me-3" />
-                                groupcbt@njit.edu
-                            </p>
-                            <p><MDBIcon icon="phone" className="me-3" /> + 1 (234) 567-8901</p>
-                            <p><MDBIcon icon="print" className="me-3" /> + 1 (234) 567-8901</p>
+                            <p><MDBIcon icon="home" className="me-2"/>Newark, New Jersey 07102</p>
+                            <p><MDBIcon icon="envelope" className="me-3"/>CBT@njit.edu</p>
+                            <p><MDBIcon icon="phone" className="me-3"/> + 1 (420) 698-6969</p>
+                            <p><MDBIcon icon="print" className="me-3"/> + 1 (234) 567-8901</p>
                         </MDBCol>
                     </MDBRow>
                 </MDBContainer>

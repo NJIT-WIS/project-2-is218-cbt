@@ -6,7 +6,7 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-export default function CourseItem({ courseTitle, courseDescribe, courseLevel, courseDuration, instructor, number }) {
+export default function CourseItem({ courseTitle, courseDescribe, courseLevel, courseDuration, instructor, number, link }) {
     const imageName = `/images/${number}.png`
 
     return (
@@ -19,7 +19,7 @@ export default function CourseItem({ courseTitle, courseDescribe, courseLevel, c
                 <li style={{color:'#2a2d34'}}><strong style={{color:'#0c0a1f'}}>Duration:</strong> {courseDuration} weeks</li>
                 <li style={{color:'#2a2d34'}}><strong style={{color:'#0c0a1f'}}>Instructor:</strong> {instructor}</li>
             </ul>
-            <a href="/">Learn More</a>
+            <a target="blank" href={link}>Learn More</a>
         </div>
     )
 }
