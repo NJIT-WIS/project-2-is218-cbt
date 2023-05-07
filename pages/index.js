@@ -23,70 +23,71 @@ import 'mdbreact/dist/css/mdb.css'
 
 export default function Home({ allPostsData }) {
 
-    const { t } = useTranslation('common')
-    return (
-        <div>
-        <PopUp />
-        <div class="content">
-            <CookieDisplay />
-            <NavigationMenuDemo />
-            <HeroSection />
+  const { t } = useTranslation('common')
+  return (
+    <div>
+      <PopUp />
+      <div className="content">
+        <CookieDisplay />
+        <NavigationMenuDemo />
+        <HeroSection />
 
-            <Layout>
-                    <div className={bodyUI.header}>
-                        <h2 className={utilStyles.heading2Xl}>Popular Posts</h2>
-                    </div>
-                    <div className={bodyUI.row}>
-                        <div className={bodyUI.leftcolumn}> {allPostsData.map(({ author, date, title }) => (
-                            <div className={bodyUI.card}>
-                                <h2>{title}</h2>
-                                <h5>{author}. <Date dateString={date}/></h5>
-                                <div className={bodyUI.fakeimg} style={{height: '200px'}}>Image</div>
-                                <p>Some text..</p>
-                            </div>
-                            ))}
-                        </div>
-
-                        <div className={bodyUI.rightcolumn}>
-                            <div className={bodyUI.card} style={{display:'inline-block', justifyContent:'center', alignItems:'center'}}>
-                                <h2>About Us</h2>
-                                <img src="/images/profile.jpg" style={{height: '100px'}} alt={'aboutusimage'}/>
-                                <p>{siteTitle} is built by {name}</p>
-                            </div>
-                            <div className={bodyUI.card}>
-                                <h3>Featured Courses</h3>
-                                <p><a href='https://www.coursera.org/learn/ai-for-everyone?' className='text-reset'>AI For Everyone</a></p>
-                                <p><a href='https://www.coursera.org/learn/ai-with-ibm-watson' className='text-reset'>Getting Started with AI using IBM Watson</a></p>
-                                <p><a href='https://www.coursera.org/learn/python-for-applied-data-science-ai?' className='text-reset'>Python for Data Science, AI & Development</a></p>
-                                <p><a href='https://www.coursera.org/learn/building-ai-applications?' className='text-reset'>Building AI Applications with Watson APIs</a></p>
-                            </div>
-                        </div>
-                    </div>
-            </Layout>
-
-            <Layout>
-                <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-                    <h2 className={utilStyles.headingLg}>{t('Blog')}</h2>
-                    <ul className={utilStyles.list}>{allPostsData.map(({ id, date, title }) => (
-                        <li className={utilStyles.listItem} key={id}>
-                            <Link href={`/posts/${id}`}>{title}</Link> <br/>
-                            <small className={utilStyles.lightText}><Date dateString={date}/></small>
-                        </li>
-                    ))}
-                    </ul>
-                </section>
-            </Layout>
-            <Footer />
+        <Layout>
+          <div className={classNames(bodyUI.header, 'text-center')}>
+            <h2 className={utilStyles.heading2Xl}>Popular Posts</h2>
+          </div>
+          <div className={classNames(bodyUI.row, 'flex-column-reverse flex-md-row')}>
+            <div className={bodyUI.leftcolumn}>
+              {allPostsData.map(({ author, date, title }) => (
+                <div className={bodyUI.card}>
+                  <h2>{title}</h2>
+                  <h5>{author}. <Date dateString={date}/></h5>
+                  <div className={bodyUI.fakeimg} style={{height: '200px'}}>Image</div>
+                  <p>Some text..</p>
+                </div>
+              ))}
             </div>
-        </div>
-    );
+
+            <div className={bodyUI.rightcolumn}>
+              <div className={bodyUI.card} style={{display:'inline-block', justifyContent:'center', alignItems:'center'}}>
+                <h2>About Us</h2>
+                <img src="/images/profile.jpg" style={{height: '100px'}} alt={'aboutusimage'}/>
+                <p>{siteTitle} is built by {name}</p>
+              </div>
+              <div className={bodyUI.card}>
+                <h3>Featured Courses</h3>
+                <p><a href='https://www.coursera.org/learn/ai-for-everyone?' className='text-reset'>AI For Everyone</a></p>
+                <p><a href='https://www.coursera.org/learn/ai-with-ibm-watson' className='text-reset'>Getting Started with AI using IBM Watson</a></p>
+                <p><a href='https://www.coursera.org/learn/python-for-applied-data-science-ai?' className='text-reset'>Python for Data Science, AI & Development</a></p>
+                <p><a href='https://www.coursera.org/learn/building-ai-applications?' className='text-reset'>Building AI Applications with Watson APIs</a></p>
+              </div>
+            </div>
+          </div>
+        </Layout>
+
+        <Layout>
+          <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+              <h2 className={utilStyles.headingLg}>{t('Blog')}</h2>
+            <ul className={utilStyles.list}>{allPostsData.map(({ id, date, title }) => (
+              <li className={utilStyles.listItem} key={id}>
+                <Link href={`/posts/${id}`}>{title}</Link> <br/>
+                <small className={utilStyles.lightText}><Date dateString={date}/></small>
+              </li>
+            ))}
+            </ul>
+          </section>
+        </Layout>
+        <Footer />
+      </div>
+    </div>
+  );
 }
 
 export async function getStaticProps() {
-    const allPostsData = getSortedPostsData();
-    return {
-        props: {
-            allPostsData
-        }
+  const allPostsData = getSortedPostsData();
+  return {
+    props: {
+      allPostsData
     }
+  }
 }
