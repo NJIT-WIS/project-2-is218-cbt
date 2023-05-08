@@ -20,8 +20,14 @@ import BodyIndex from '../components/bodyIndex'
 import bodyUI from '../styles/bodyIndex.module.css'
 import 'bootstrap-css-only/css/bootstrap.min.css'
 import 'mdbreact/dist/css/mdb.css'
+import ReactGA from 'react-ga'
 
 export default function Home({ allPostsData }) {
+
+    ReactGA.initialize('G-Z5RWSV375R');
+    if (typeof window !== 'undefined') {
+        ReactGA.pageview(window.location.pathname + window.location.search);
+    }
 
     const { t } = useTranslation('common')
     return (

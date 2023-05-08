@@ -15,8 +15,14 @@ import 'bootstrap/dist/css/bootstrap.css'
 import Footer from '../components/footer'
 import CookieDisplay from '../components/cookie'
 import aboutUI from '../styles/about.module.css'
+import ReactGA from 'react-ga'
 
 export default function About() {
+    ReactGA.initialize('G-Z5RWSV375R');
+    if (typeof window !== 'undefined') {
+        ReactGA.pageview(window.location.pathname + window.location.search);
+    }
+
     const { t } = useTranslation('common')
 
     return (
