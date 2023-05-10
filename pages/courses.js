@@ -16,18 +16,20 @@ import NavigationMenuDemo from '../components/navigation'
 import 'bootstrap/dist/css/bootstrap.css'
 import Footer from '../components/footer'
 import aboutUI from '../styles/about.module.css'
-
+import ReactGA from 'react-ga'
 
 export default function Courses() {
     return (
+
+    ReactGA.initialize('G-Z5RWSV375R');
+    if (typeof window !== 'undefined') {
+        ReactGA.pageview(window.location.pathname + window.location.search);
+    }
+
         <div className={utilStyles.container}>
             <Head>
                 <title>Courses | MyWebClass.org</title>
                 <link rel="icon" href="/images/favicon.ico" />
-                <meta
-                  name="viewport"
-                  content="width=device-width, initial-scale=1.0"
-                />
                 <script async src="https://www.googletagmanager.com/gtag/js?id=G-CXE9WXQFQG"></script>
                 <script dangerouslySetInnerHTML={{
                     __html: `
