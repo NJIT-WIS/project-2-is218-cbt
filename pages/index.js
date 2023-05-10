@@ -60,7 +60,7 @@ export default function Home({ allPostsData }) {
                         <div className={bodyUI.rightcolumn}>
                             <div className={bodyUI.card} style={{ justifyContent:'center'}}>
                                 <h2 className={bodyUI.rightSideTitle} style={{textAlign: 'center'}}>About Us</h2>
-                                <img className={bodyUI.Logo} src="/images/profile.jpg" style={{height: '100px'}} alt={'aboutusimage'}/>
+                                <img className={bodyUI.Logo} src="images/profile.jpg" style={{height: '100px'}} alt='aboutusimage'/>
                                 <p style={{textAlign: 'justify'}}>{siteTitle} is built by {name} that stands for Callie, Bryan, and Truong. We empower teachers and students with web development skill and AI knowledge.</p>
                             </div>
                             <div className={bodyUI.card}>
