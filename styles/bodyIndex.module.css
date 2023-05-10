@@ -1,9 +1,18 @@
 /* Header/Blog Title */
 .header {
-    padding: 0 0 10px 0;
     font-size: 40px;
     text-align: center;
-    background: white;
+    text-decoration: underline;
+}
+
+.nameOfTitle {
+    font-size: 28px;
+    font-weight: bolder;
+}
+.nameOfSubtitle {
+    font-size: 18px;
+    color: grey;
+    font-style: italic;
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -11,6 +20,16 @@
 .leftcolumn {
     float: left;
     width: 75%;
+}
+
+.linkOfImage {
+    text-decoration: none;
+    color: black;
+}
+.linkOfImage:hover {
+    color: #3261A7;
+    background-color: yellow;
+    font-style: italic;
 }
 
 /* Right column */
@@ -31,7 +50,7 @@
 .card {
     background-color: white;
     padding: 20px;
-    margin-top: 20px;
+    padding-bottom: 0;
 }
 
 /* Clear floats after the columns */
@@ -55,4 +74,15 @@
         width: 100%;
         padding: 0;
     }
+}
+
+.Logo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rightSideTitle{
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
 }

@@ -1,17 +1,12 @@
 ---
+
 title: 'Applications of AI on Mobile Phones'
 author: 'Avery Thompson'
 date: '2023-05-02'
-tags:
-  - AI
-  - mobile phones
-  - personal assistants
-  - predictive text
-  - camera features
-  - battery optimization
-  - virtual reality
-  - augmented reality
-  - health monitoring
+description: 'AI is being increasingly used in mobile phones to enhance various features such as camera, speech recognition, and personalization. Mobile AI can also enable applications such as predictive maintenance, fraud detection, and intelligent assistants, thereby improving the user experience and efficiency of mobile devices.'
+banner: 'https://techjournal.org/wp-content/uploads/2021/10/What-Is-Artificial-Intelligence-Technology-In-Mobile-Phones.jpg'
+id: '6'
+
 ---
 
 # Applications of AI on Mobile Phones

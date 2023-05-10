@@ -40,7 +40,7 @@ function Footer() {
 
                         <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
                             <h6 className='text-uppercase fw-bold mb-4'>privacy policy</h6>
-                            <p>Your privacy is important to us. Read our <a href='#!' className='text-reset' style={{backgroundColor: '#def8fd'}}>privacy policy</a> to understand how we collect and use your information.</p>
+                            <p>Your privacy is important to us. Read our <a href="/posts/privacy" className='text-reset' style={{backgroundColor: '#def8fd'}}>privacy policy</a> to understand how we collect and use your information.</p>
                         </MDBCol>
 
                         <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
