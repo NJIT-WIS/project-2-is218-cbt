@@ -3,7 +3,7 @@ const { chromium } = require('playwright');
 const path = require('path');
 
 const config = require(path.join(process.cwd(), 'playwright.config.js'));
-const { pages } = require(path.join(process.cwd(), 'tests', 'pages.json'));
+const { home } = require(path.join(process.cwd(), 'tests', 'pages.json'));
 
 const TIMEOUT = 30000;
 
@@ -12,7 +12,7 @@ async function checkEmailInputElement (pageUrl) {
     const page = await browser.newPage();
     await page.goto(pageUrl, { timeout: TIMEOUT });
 
-    const emailInput = await page.$('input[placeholder="mce-EMAIL"]')
+    const emailInput = await page.$('input[id="mce-EMAIL"]')
 
     if (emailInput) {
         const outerHTML = await emailInput.evaluate((el) => el.outerHTML)
@@ -25,10 +25,10 @@ async function checkEmailInputElement (pageUrl) {
     expect(emailInput).not.toBeNull()
 }
 
-pages.forEach((page) => {
-    test(`Verify email input element on "${page.path}"`, async ({}) => {
-        console.log(page.path)
-        const pageUrl = `${config.use.baseURL}${page.path}`
+home.forEach((one) => {
+    test(`Verify email input element on "${one.path}"`, async ({}) => {
+        console.log(one.path)
+        const pageUrl = `${config.use.baseURL}${one.path}`
         await checkEmailInputElement(pageUrl)
     });
 });
