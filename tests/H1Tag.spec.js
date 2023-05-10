@@ -16,7 +16,7 @@ async function checkH1(pageUrl) {
 }
 
 pages.forEach((page) => {
-    test(Page "${page.path}" should have at least one h1 tag, async ({}) => {
+    test('Page "${page.path}" should have at least one h1 tag', async ({}) => {
         const pageUrl = ${config.use.baseURL}${page.path};
         const hasH1Tag = await checkH1T(pageUrl);
         expect(hasH1Tag).toBeTruthy();
