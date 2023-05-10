@@ -9,11 +9,12 @@
         "title": "MyWebClass.org | About"
       }
     ],
-  "home": [
-      {
-        "path": "/",
-        "title": "MyWebClass.org"
-      }
+
+    "home": [
+        {
+          "path": "/",
+          "title": "MyWebClass.org"
+        }
     ]
 }
   
