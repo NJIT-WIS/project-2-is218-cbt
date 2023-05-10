@@ -7,13 +7,18 @@
       {
         "path": "/about",
         "title": "MyWebClass.org | About"
+      },
+      {
+        "path": "/courses",
+        "title": "MyWebClass.org | Courses"
       }
     ],
 
     "home": [
         {
           "path": "/",
-          "title": "MyWebClass.org"
+          "title": "MyWebClass.org",
+          "description": "Learn about AI and Web Development since AI is leading the technology these days."
         }
     ]
 }
