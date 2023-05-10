@@ -12,7 +12,7 @@ async function checkEmailInputElement (pageUrl) {
     const page = await browser.newPage();
     await page.goto(pageUrl, { timeout: TIMEOUT });
 
-    const emailInput = await page.$('mce-EMAIL');
+    const emailInput = await page.$('input[placeholder="mce-EMAIL"]')
 
     if (emailInput) {
         const outerHTML = await emailInput.evaluate((el) => el.outerHTML)
