@@ -9,8 +9,8 @@ import { siteTitle, name } from '../components/layout'
 
 function Footer() {
     return (
-        <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
-            <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom' style={{backgroundColor: '#def8fd'}}>
+        <MDBFooter className='text-white text-center text-lg-start' style={{backgroundColor:'#3261A7'}}>
+            <section className='d-flex justify-content-center p-3' style={{backgroundColor:'#9B65E2'}}>
                 <div className='me-5 d-none d-lg-block'><span>Get connected with us on social networks:</span></div>
                 <div>
                     <a target="blank" href='https://www.facebook.com/ducthuansidco' className='me-4 text-reset'><MDBIcon fab icon="facebook-f"/></a>
@@ -22,7 +22,7 @@ function Footer() {
                 </div>
             </section>
 
-            <section className=''>
+            <section className='text-white' style={{backgroundColor:'#3261A7'}}>
                 <MDBContainer className='text-center text-md-start mt-5'>
                     <MDBRow className='mt-3'>
                         <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
@@ -40,7 +40,7 @@ function Footer() {
 
                         <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
                             <h6 className='text-uppercase fw-bold mb-4'>privacy policy</h6>
-                            <p>Your privacy is important to us. Read our <a href="/posts/privacy" className='text-reset' style={{backgroundColor: '#def8fd'}}>privacy policy</a> to understand how we collect and use your information.</p>
+                            <p>Your privacy is important to us. Read our <a href="/posts/privacy" className='text-reset' style={{backgroundColor: '#3261A7'}}>privacy policy</a> to understand how we collect and use your information.</p>
                         </MDBCol>
 
                         <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
@@ -54,7 +54,7 @@ function Footer() {
                 </MDBContainer>
             </section>
 
-            <div className='text-center p-4' style={{ backgroundColor: 'rgba(50, 97, 167, 255)', color: 'white' }}>
+            <div className='text-center p-3' style={{ backgroundColor: 'rgba(50, 97, 167, 255)', color: 'white' }}>
                 © 2023 Copyright: <a className='text-reset fw-bold' href='/'>{siteTitle}</a>
             </div>
         </MDBFooter>

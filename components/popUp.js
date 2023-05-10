@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import Modal from 'react-modal';
-
 import styles from '../styles/modal.module.css';
 
 var frequency = 0;
@@ -35,7 +34,7 @@ return (
         <Modal className={styles.modal} isOpen={modalIsOpen}>
             <div>
                 <form action="https://github.us21.list-manage.com/subscribe/post?u=25ca49d2ee853a0049c897437&amp;id=8f0f70b342&amp;f_id=0085b3e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <h2> Subscribe &amp; Receive Important Updates </h2>
+                    <h2> Subscribe &amp; Receive Important Updates From MyWebClass.org</h2>
                         <div className={styles.popUp}>
                         <fields>
 
@@ -45,11 +44,13 @@ return (
                                 </input>
                                 </textinput>
 
+                                <buttons>
                                 <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
                                 Subscribe
                                 </button>
 
-
+                                <button onClick={() => setModalIsOpen(false)}>Close</button>
+                                </buttons>
                         </fields>
                         </div>
                         <div class="response" id="mce-error-response"></div>
@@ -64,7 +65,7 @@ return (
                 }}
                 />
 
-        <button onClick={() => setModalIsOpen(false)}>Close</button>
+
         </Modal>
     </div>
   );

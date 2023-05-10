@@ -20,3 +20,7 @@
 .Footer a {
     text-decoration: none;
 }
+
+.Footer a:hover{
+    color: blue;
+}

@@ -1,14 +1,20 @@
+.modal h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
 
+}
 .modal {
   background: #fff;
   color: #000;
   width: 600px;
-  height: 400px;
+  height: 325px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 4em;
   padding: 2em;
+  border-radius: 5px;
   border-color: black;
+
 }
 
 .modal fields {
@@ -16,24 +22,57 @@
     display: flex;
     flex-direction: column;
 
+
+}
+
+.modal buttons {
+margin-top: 1em;
+    display: inline-flex;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+ justify-content: space-between;
+ width: 40%;
 }
 
 .modal button {
+ text-align: center;
     background-color: #0d64ae;
-    width: 15%;
+
+    line-height:50px;
     color: white;
     font-size: 1rem;
-    padding: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
     margin-bottom: 2em;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 
+
 }
 
 
+
+
+.modal button:hover{
+    background-color: #DADADA;
+    color: blue;
+}
 .modal textinput {
 
    padding-bottom: 1em;
 
+}
+
+@media (max-width: 800px) {
+  .modal {
+        width: 400px;
+        height: 352px;
+
+  }
+
+  .modal buttons {
+        width: 80%;
+  }
 }
