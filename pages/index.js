@@ -51,7 +51,7 @@ export default function Home({ allPostsData }) {
                     <div className={bodyUI.row}>
                         <div className={bodyUI.leftcolumn}> {allPostsData.slice(0, allPostsData.length-2).map(({ author, date, title, description, banner, id }) => (
                             <div className={bodyUI.card}>
-                                <a className={bodyUI.linkOfImage} href={"posts/blog-post-" + id}><h2 className={bodyUI.nameOfTitle}>{title}</h2></a>
+                                <a className={bodyUI.linkOfImage} href={"/posts/blog-post-" + id}><h2 className={bodyUI.nameOfTitle}>{title}</h2></a>
                                 <h5 className={bodyUI.nameOfSubtitle}>Author: {author}. <Date dateString={date}/>.</h5>
                                 <img src={banner} alt={'plswork'}/>
                                 <p style={{textAlign: 'justify'}}>{description}</p>
@@ -62,7 +62,7 @@ export default function Home({ allPostsData }) {
                         <div className={bodyUI.rightcolumn}>
                             <div className={bodyUI.card} style={{ justifyContent:'center'}}>
                                 <h2 className={bodyUI.rightSideTitle} style={{textAlign: 'center'}}>About Us</h2>
-                                <img className={bodyUI.Logo} src="images/profile.jpg" style={{height: '100px'}} alt='aboutusimage'/>
+                                <img className={bodyUI.Logo} src="/images/profile.jpg" style={{height: '100px'}} alt='aboutusimage'/>
                                 <p style={{textAlign: 'justify'}}>{siteTitle} is built by {name} that stands for Callie, Bryan, and Truong. We empower teachers and students with web development skill and AI knowledge.</p>
                             </div>
                             <div className={bodyUI.card}>
@@ -77,7 +77,7 @@ export default function Home({ allPostsData }) {
 
                 <div className={bodyUI.card}>
                     <form action="https://github.us21.list-manage.com/subscribe/post?u=25ca49d2ee853a0049c897437&amp;id=8f0f70b342&amp;f_id=0085b3e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                        <h3 className={bodyUI.rightSideTitle} style={{fontSize: '24px'}}> Subscribe &amp; Receive Important Updates From MyWebClass.org</h3>
+                        <h3 className={bodyUI.rightSideTitle} style={{fontSize: '24px'}}> Subscribe for Updates</h3>
                             <div>
                                 <fields>
 
