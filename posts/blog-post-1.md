@@ -1,15 +1,15 @@
 ---
+
 title: 'How cognitive technology is changing tertiary education'
-date: '2023-02-19'
 author: 'Maxwell Parker'
-tags:
-  - AI
-  - education
-  - student
-  - teacher
+date: '2023-02-19'
+description: 'Cognitive technology is transforming tertiary education by offering personalized learning, immersive experiences, and automation of administrative tasks. However, careful consideration is needed to ensure its implementation is ethical and effective.'
+banner: 'https://ychef.files.bbci.co.uk/960_540/p04jp1np.jpg'
+id: '1'
+
 ---
 
-# How cognitive technology is changing tertiary education
+# How Cognitive Technology is Changing Tertiary Education
 
 The challenges of navigating student life can be daunting for those starting off at university, especially if they're also juggling work and family commitments. To help students tackle these challenges, Auckland's Unitec Institute of Technology is planning for the day when students will be able to call on artificial intelligence technology as a trusted adviser – any time of the day or night.
 

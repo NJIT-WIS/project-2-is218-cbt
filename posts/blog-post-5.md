@@ -1,13 +1,12 @@
 ---
+
 title: 'Applications of Web Development: Transforming Industries and User Experiences'
 author: 'Oliver Nguyen'
 date: '2023-04-15'
-tags:
-  - web development
-  - applications
-  - industry
-  - user experience
-  - technology
+description: 'Web development has transformed industries like Ecommerce, finance, and healthcare by creating user-friendly web applications that enhance customer experiences. It is also enabled the development of powerful online tools like education platforms, social networks, and content management systems that change how people share information online.'
+banner: 'https://www.infomazeelite.com/wp-content/uploads/2022/06/Build-Custom-Web-Apps.png'
+id: '5'
+
 ---
 
 # Applications of Web Development: Transforming Industries and User Experiences

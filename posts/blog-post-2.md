@@ -1,13 +1,12 @@
 ---
+
 title: 'The Future of AI: Transforming Our World'
 author: 'Lena Hayes'
 date: '2023-02-21'
-tags:
-  - AI
-  - future
-  - technology
-  - society
-  - ethics
+description: 'AI can transform medicine, education, and entertainment, and tackle global challenges. But ethical concerns exist, so responsible AI frameworks are crucial to balance innovation with human rights and values.'
+banner: 'https://imageio.forbes.com/specials-images/imageserve/603c0d52695f2a07f37ff642/A-man-look-thoughtfully-to-the-side--interspersed-with-graphics-representing/960x0.jpg?format=jpg&width=960'
+id: '2'
+
 ---
 
 # The Future of AI: Transforming Our World
