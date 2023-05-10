@@ -191,10 +191,11 @@
 .buttonContainerIndex{
     display: flex;
     justify-content: center;
+
 }
 .buttonIndex {
     display: inline-block;
-    padding: 12px 24px;
+    padding: 10px 18px;
     background-color: #4CAF50;
     color: white;
     text-align: center;
@@ -204,6 +205,7 @@
     transition: background-color 0.3s ease;
     margin-right: 10px;
     margin-left: 10px;
+    margin-top: 10px;
 }
 
 .buttonIndex:hover {

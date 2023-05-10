@@ -17,8 +17,8 @@ const NavigationMenuDemo = () => {
                     <NavigationMenu.Content className="NavigationMenuContent">
                         <ul className="List one">
                             <li style={{ gridRow: 'span 3' }}>
-                                <NavigationMenu.Link className="NavigationMenuLink" href="/courses">
-                                    <a className="Callout" href="/courses">
+                                <NavigationMenu.Link className="NavigationMenuLink" href="courses">
+                                    <a className="Callout" href="courses">
                                         <svg aria-hidden width="38" height="38" viewBox="0 0 25 25" fill="white">
                                             <path d="M12 25C7.58173 25 4 21.4183 4 17C4 12.5817 7.58173 9 12 9V25Z"></path>
                                             <path d="M12 0H4V8H12V0Z"></path>
@@ -44,18 +44,18 @@ const NavigationMenuDemo = () => {
                     </NavigationMenu.Trigger>
                     <NavigationMenu.Content className="NavigationMenuContent">
                         <ul className="List two">
-                            <ListItem title="How cognitive technology is changing tertiary education" href="/posts/blog-post-1">How cognitive tech transforms tertiary education with online learning, personalization, ad AI integration.</ListItem>
-                            <ListItem title="The Future of AI: Transforming Our World" href="/posts/blog-post-2">How AI could transform industries, jobs, and raise ethical issues.</ListItem>
-                            <ListItem title="AI Applications: Revolutionizing Industries and Everyday Life" href="/posts/blog-post-3">AI's impact on healthcare, finance, transportation & entertainment.</ListItem>
-                            <ListItem title="The Future of Web Development: Emerging Trends and Career Prospects" href="/posts/blog-post-4">Include emerging trends and career opportunities.</ListItem>
-                            <ListItem title="Applications of Web Development: Industries and User Experiences" href="/posts/blog-post-5">Impact on e-commerce, media, entertainment & mobile design.</ListItem>
-                            <ListItem title="Applications of AI on Mobile Phones" href="/posts/blog-post-6">iPhone's Face ID, Google Pixel's Super Res Zoom, etc.</ListItem>
+                            <ListItem title="How cognitive technology is changing tertiary education" href="posts/blog-post-1">How cognitive tech transforms tertiary education with online learning, personalization, ad AI integration.</ListItem>
+                            <ListItem title="The Future of AI: Transforming Our World" href="posts/blog-post-2">How AI could transform industries, jobs, and raise ethical issues.</ListItem>
+                            <ListItem title="AI Applications: Revolutionizing Industries and Everyday Life" href="posts/blog-post-3">AI's impact on healthcare, finance, transportation & entertainment.</ListItem>
+                            <ListItem title="The Future of Web Development: Emerging Trends and Career Prospects" href="posts/blog-post-4">Include emerging trends and career opportunities.</ListItem>
+                            <ListItem title="Applications of Web Development: Industries and User Experiences" href="posts/blog-post-5">Impact on e-commerce, media, entertainment & mobile design.</ListItem>
+                            <ListItem title="Applications of AI on Mobile Phones" href="posts/blog-post-6">iPhone's Face ID, Google Pixel's Super Res Zoom, etc.</ListItem>
                         </ul>
                     </NavigationMenu.Content>
                 </NavigationMenu.Item>
 
                 <NavigationMenu.Item>
-                    <NavigationMenu.Link className="NavigationMenuLink" href="about.js">About Us</NavigationMenu.Link>
+                    <NavigationMenu.Link className="NavigationMenuLink" href="about">About Us</NavigationMenu.Link>
                 </NavigationMenu.Item>
 
                 <NavigationMenu.Item>

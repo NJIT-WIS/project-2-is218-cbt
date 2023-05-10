@@ -21,6 +21,8 @@ import bodyUI from '../styles/bodyIndex.module.css'
 import 'bootstrap-css-only/css/bootstrap.min.css'
 import 'mdbreact/dist/css/mdb.css'
 import ReactGA from 'react-ga'
+import Modal from 'react-modal';
+import styles from '../styles/utils.module.css';
 
 export default function Home({ allPostsData }) {
 
@@ -49,7 +51,7 @@ export default function Home({ allPostsData }) {
                     <div className={bodyUI.row}>
                         <div className={bodyUI.leftcolumn}> {allPostsData.slice(0, allPostsData.length-2).map(({ author, date, title, description, banner, id }) => (
                             <div className={bodyUI.card}>
-                                <a className={bodyUI.linkOfImage} href={"/posts/blog-post-" + id}><h2 className={bodyUI.nameOfTitle}>{title}</h2></a>
+                                <a className={bodyUI.linkOfImage} href={"posts/blog-post-" + id}><h2 className={bodyUI.nameOfTitle}>{title}</h2></a>
                                 <h5 className={bodyUI.nameOfSubtitle}>Author: {author}. <Date dateString={date}/>.</h5>
                                 <img src={banner} alt={'plswork'}/>
                                 <p style={{textAlign: 'justify'}}>{description}</p>
@@ -71,8 +73,37 @@ export default function Home({ allPostsData }) {
                                 <p><a href='https://www.coursera.org/learn/building-ai-applications?' className='text-reset'>Building AI Applications with Watson APIs</a></p>
                                 <p><a href='https://www.coursera.org/learn/neural-networks-deep-learning' className='text-reset'>Neural Networks and Deep Learning</a></p>
                             </div>
-                        </div>
-                    </div>
+
+
+                <div className={bodyUI.card}>
+                    <form action="https://github.us21.list-manage.com/subscribe/post?u=25ca49d2ee853a0049c897437&amp;id=8f0f70b342&amp;f_id=0085b3e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <h3 className={bodyUI.rightSideTitle} style={{fontSize: '24px'}}> Subscribe &amp; Receive Important Updates From MyWebClass.org</h3>
+                            <div>
+                                <fields>
+
+                                    <label for = "mce-EMAIL">Email Address*</label>
+                                        <textinput>
+                                            <input type="email" name="EMAIL" class ="required email" id="mce-EMAIL">
+                                            </input>
+                                        </textinput>
+                                    <div className ={styles.buttonContainerIndex}>
+                                    <button className={styles.buttonIndex} type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
+                                        Subscribe
+                                    </button>
+                                    </div>
+                                 </fields>
+                            </div>
+                            <div class="response" id="mce-error-response"></div>
+                            <div class="response" id="mce-error-response"></div>
+                    </form>
+                    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+                    <script dangerouslySetInnerHTML={{
+                        __html: `(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);`
+                        }}
+                    />
+                </div>
+                </div>
+            </div>
             </Layout>
             <Footer />
             </div>

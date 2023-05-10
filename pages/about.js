@@ -69,7 +69,7 @@ export default function About() {
 
                     <div className={aboutUI.column}>
                         <div className={aboutUI.card}>
-                            <img src="../images/instructor1.png" alt="truong" />
+                            <img src="images/instructor1.png" alt="truong" />
                             <div className={aboutUI.container}>
                                 <h2 className={aboutUI.H2}>Truong Dang</h2>
                                 <p className={aboutUI.title}>Computer Science 2025</p>
