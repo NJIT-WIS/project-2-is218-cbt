@@ -30,7 +30,7 @@ export default function About() {
             <CookieDisplay />
             <Head>
                 <title>MyWebClass.org | About</title>
-                <link rel="icon" href="/images/favicon.ico" />
+                <link rel="icon" href="images/favicon.ico" />
             </Head>
             <header className={utilStyles.header}><NavigationMenuDemo/></header>
             <main className={utilStyles.main}>
@@ -43,7 +43,7 @@ export default function About() {
                 <div className={aboutUI.row}>
                     <div className={aboutUI.column}>
                         <div className={aboutUI.card}>
-                            <img src="/images/instructor1.png" alt="bryan" />
+                            <img src="images/instructor1.png" alt="bryan" />
                             <div className={aboutUI.container}>
                                 <h2 className={aboutUI.H2}>Bryan Tello</h2>
                                 <p className={aboutUI.title}>Business & Information Systems 2023</p>
@@ -56,7 +56,7 @@ export default function About() {
 
                     <div className={aboutUI.column}>
                         <div className={aboutUI.card}>
-                            <img src="/images/instructor0.png" alt="callie"/>
+                            <img src="images/instructor0.png" alt="callie"/>
                             <div className={aboutUI.container}>
                                 <h2 className={aboutUI.H2}>Callie Dieffenbach</h2>
                                 <p className={aboutUI.title}>Web & Information System 2024</p>
@@ -69,7 +69,7 @@ export default function About() {
 
                     <div className={aboutUI.column}>
                         <div className={aboutUI.card}>
-                            <img src="/images/instructor1.png" alt="truong" />
+                            <img src="../images/instructor1.png" alt="truong" />
                             <div className={aboutUI.container}>
                                 <h2 className={aboutUI.H2}>Truong Dang</h2>
                                 <p className={aboutUI.title}>Computer Science 2025</p>
