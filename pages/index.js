@@ -78,18 +78,16 @@ export default function Home({ allPostsData }) {
                 <div className={bodyUI.card}>
                     <form action="https://github.us21.list-manage.com/subscribe/post?u=25ca49d2ee853a0049c897437&amp;id=8f0f70b342&amp;f_id=0085b3e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                         <h3 className={bodyUI.rightSideTitle} style={{fontSize: '24px'}}> Subscribe for Updates</h3>
-                            <fields>
-                                <label for = "mce-EMAIL">Email Address*</label>
-                                    <textinput>
-                                        <input type="email" name="EMAIL" class ="required email" id="mce-EMAIL"></input>
-                                    </textinput>
-                                <div className ={styles.buttonContainerIndex}>
-                                    <button className={styles.buttonIndex} type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
-                                        Subscribe
-                                    </button>
-                                </div>
-                            </fields>
-                            <div class="response" id="mce-error-response"></div>
+                        <label for = "mce-EMAIL">Email Address*</label>
+                        <textinput>
+                            <input type="email" name="EMAIL" class ="required email" id="mce-EMAIL"></input>
+                        </textinput>
+                        <div className ={styles.buttonContainerIndex}>
+                            <button className={styles.buttonIndex} type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
+                                Subscribe
+                            </button>
+                        </div>
+                        <div class="response" id="mce-error-response"></div>
                     </form>
                     <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
                     <script dangerouslySetInnerHTML={{
