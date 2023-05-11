@@ -55,7 +55,7 @@ const NavigationMenuDemo = () => {
                 </NavigationMenu.Item>
 
                 <NavigationMenu.Item>
-                    <NavigationMenu.Link className="NavigationMenuLink" href="/about">About Us</NavigationMenu.Link>
+                    <NavigationMenu.Link className="NavigationMenuLink" href="/posts/about">About Us</NavigationMenu.Link>
                 </NavigationMenu.Item>
 
                 <NavigationMenu.Item>
