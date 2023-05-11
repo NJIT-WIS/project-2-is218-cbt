@@ -12,7 +12,7 @@ function HeroSection() {
 
     const { t } = useTranslation('common');
     return (
-        <div className={styles.heroSection}>
+        <section className={styles.heroSection}>
             <row>
                 <column1>
                     <h1>Revolutionize Your Web Skills</h1>
@@ -34,7 +34,7 @@ function HeroSection() {
                     </Link>
                 </column2>
             </row>
-        </div>
+        </section>
     );
 }
 
