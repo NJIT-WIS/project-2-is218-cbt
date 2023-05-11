@@ -27,7 +27,7 @@ export default function Courses() {
         <div className={utilStyles.container}>
             <Head>
                 <title>MyWebClass.org | Courses</title>
-                <link rel="icon" href="/images/favicon.ico" />
+                <link rel="icon" href="images/favicon.ico" />
                 <script async src="https://www.googletagmanager.com/gtag/js?id=G-CXE9WXQFQG"></script>
                 <script dangerouslySetInnerHTML={{
                     __html: `
