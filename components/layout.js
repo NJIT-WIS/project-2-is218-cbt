@@ -13,7 +13,6 @@ export default function Layout({ children, home }) {
     return (
         <div className={styles.container}>
             <Head>
-                <meta charset="UTF-8"/>
                 <link rel="icon" href="/favicon.ico"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
                 <meta name="description" content="Learn about AI and Web Development since AI is leading the technology these days."/>
