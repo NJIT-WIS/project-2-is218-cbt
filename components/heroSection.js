@@ -9,6 +9,7 @@ import { useTranslation } from 'next-i18next'
 import { siteTitle, name } from '../components/layout'
 
 function HeroSection() {
+
     const { t } = useTranslation('common');
     return (
         <div className={styles.heroSection}>

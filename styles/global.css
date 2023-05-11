@@ -43,6 +43,8 @@ button {
     padding-right: 0px;
 }
 
+
+
 .Brand a {
 color: white;
 text-decoration: none;
@@ -50,6 +52,13 @@ text-decoration: none;
 
 .Brand a:hover {
     color: var(--violet3);
+}
+
+@media only screen and (max-width: 700px) {
+    .Brand{
+      display: none;
+
+    }
 }
 
 .Login {
