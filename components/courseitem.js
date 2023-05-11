@@ -7,7 +7,7 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
 export default function CourseItem({ courseTitle, courseDescribe, courseLevel, courseDuration, instructor, number, link }) {
-    const imageName = `/images/${number}.png`
+    const imageName = `images/${number}.png`
 
     return (
         <div className={utilStyles.courseItem}>
