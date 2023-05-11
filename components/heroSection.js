@@ -26,7 +26,7 @@ function HeroSection() {
                     <Link href="/">
                         <Image
                             priority
-                            src="/images/hero-image-v2.jpg"
+                            src="images/hero-image-v2.jpg"
                             height={400}
                             width={660}
                             alt='hero-image'
