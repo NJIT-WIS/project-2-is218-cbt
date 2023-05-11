@@ -51,7 +51,7 @@
     padding-right: 3em;
     border-radius: 20px;
     padding-bottom: 2em;
-   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+
     color: black;
 }
 .heroSection row::after {
@@ -73,6 +73,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+
 
 }
 .heroSection p {
@@ -103,24 +104,32 @@
     color: red;
 }
 
-@media (max-width: 768px) {
-  .hero-section {
-    height: auto;
+@media only screen and (max-width: 700px)  {
+
+  .heroSection column1 {
+    width: 100%;
   }
 
-  .hero-section h1 {
-    font-size: 3rem;
-    margin-bottom: 0.5rem;
+  .heroSection column2 {
+        display: none;
+        width: 0%;
   }
 
-  .hero-section p {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 1000px)  {
+
+  .heroSection column1 {
+   width: 100%;
   }
 
-  .hero-section button {
-    font-size: 1.2rem;
-    padding: 0.5rem 1.5rem;
+  .heroSection row {
+        display: flex;
+        flex-direction: column;
+  }
+
+  .heroSection column2 {
+    width: 100%;
   }
 
 }

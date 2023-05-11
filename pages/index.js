@@ -36,7 +36,7 @@ export default function Home({ allPostsData }) {
         <div>
             <Head>
                 <title>MyWebClass.org</title>
-                <link rel="icon" href="/images/favicon.ico" />
+                <link rel="icon" href="/images/favicon.ico" /><meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
         <PopUp />
         <div class="content">
