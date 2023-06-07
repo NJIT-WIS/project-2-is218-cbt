@@ -1,6 +1,8 @@
 # Project 2 - Marketing Site with Sales Funnel
 
-![localhost](https://www.linkedin.com/dms/D4E06AQFaMgO7ol-Vcw/messaging-attachmentFile/0/1686170617075?m=AQLSwg-LXdSp0wAAAYiXmctgzqLhy8XWVJdjqMbc1qqH_z4KSL6qdaiF9g&ne=1&v=beta&t=QGbeU6hKHsNmsXF0B-9SWV4qESWpVgkyvkfriyZVmjY)
+![localhost](/public/images/localhost.png)
+
+![footer](/public/images/footer.png)
 
 ## Install Instructions
 **Run:**
@@ -8,17 +10,17 @@
 - npm run build <- after first install
 - npm run dev --turbo <-Startup Live Dev Server for lIve preview on http://locahhost:30000
 
-## Lecture Videos
+**Instruction Videos:**
 - [Project 2 Intro and Project 1 Debrief  Part 1](https://youtu.be/TaTOCifmREc)
 - [Project 2 Intro and Project 1 Debrief  Part 2](https://youtu.be/LO99DuD6_4I)
 - [Introduction to the Psychology of Web Design](https://youtu.be/uo969JG6M-o)
 - [Project 2 Update - Design and Fixing an Error in Project 2](https://youtu.be/AtjM_ozVpZM)
+
 ## Project Requirements
-# Introduction to the Project and Grading System
 
-Dear students, welcome to the project! In this project, you will be working together as a team to build a web application that meets specific requirements. The project has three levels of difficulty, which roughly correspond to IS218/601 (Basic), IS219 (Intermediate), and IS421 (Advanced).
+### Introduction to the Project and Grading System
 
-As per your respective course, you are required to complete the corresponding project level:
+The project has three levels of difficulty, which roughly correspond to IS218/601 (Basic), IS219 (Intermediate), and IS421 (Advanced). As per your respective course, you are required to complete the corresponding project level:
 
 - IS218/601 students must submit the Basic project requirements.
 - IS219 students must submit the Basic + Intermediate project requirements.
