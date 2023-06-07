@@ -1,5 +1,7 @@
-# Project 2
-Please READ everything I am giving you and everyone needs to submit in Canvas.
+# Project 2 - Marketing Site with Sales Funnel
+
+![localhost](https://www.linkedin.com/dms/D4E06AQFaMgO7ol-Vcw/messaging-attachmentFile/0/1686170617075?m=AQLSwg-LXdSp0wAAAYiXmctgzqLhy8XWVJdjqMbc1qqH_z4KSL6qdaiF9g&ne=1&v=beta&t=QGbeU6hKHsNmsXF0B-9SWV4qESWpVgkyvkfriyZVmjY)
+
 ## Install Instructions
 **Run:**
 - npm install
